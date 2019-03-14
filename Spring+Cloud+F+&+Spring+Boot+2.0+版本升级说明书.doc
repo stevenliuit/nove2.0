@@ -1,0 +1,2127 @@
+Message-ID: <48917120.78.1552555613767.JavaMail.confluence3@izhp3a6dneyx56suyqlf0az>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_77_1901483573.1552555613765"
+
+------=_Part_77_1901483573.1552555613765
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Spring Cloud F &amp; Spring Boot 2.0 =E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Spring Cloud F &amp; Spring Boot 2.0 =E7=89=88=E6=9C=AC=E5=8D=87=E7=
+=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">=20
+<div class=3D"columnLayout two-right-sidebar" data-layout=3D"two-right-side=
+bar">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p><br></p>
+<p><strong>Spring Boot 2.0 =E9=9C=80=E8=A6=81 Java 8 =E6=88=96=E6=9B=B4=E9=
+=AB=98=E7=89=88=E6=9C=AC<span style=3D"color: rgb(86,90,95);">=E3=80=82=E4=
+=B8=8D=E5=86=8D=E6=94=AF=E6=8C=81 Java 6 =E5=92=8C 7 =E4=BA=86</span></stro=
+ng></p>
+<p><strong><span style=3D"color: rgb(86,90,95);">=E5=9C=A8 Spring Boot 2.0 =
+=E4=B8=AD=EF=BC=8C=E8=AE=B8=E5=A4=9A=E9=85=8D=E7=BD=AE=E5=B1=9E=E6=80=A7=E8=
+=A2=AB=E9=87=8D=E6=96=B0=E5=91=BD=E5=90=8D/=E5=88=A0=E9=99=A4=EF=BC=8C=E5=
+=BC=80=E5=8F=91=E4=BA=BA=E5=91=98=E9=9C=80=E8=A6=81=E6=9B=B4=E6=96=B0</span=
+></strong></p>
+<p>=E4=BE=9D=E8=B5=96=E7=89=88=E6=9C=AC</p>
+<p>=E4=BB=A5=E4=B8=8B=E5=BA=93=E7=9A=84=E6=9C=80=E4=BD=8E=E6=94=AF=E6=8C=81=
+=E7=89=88=E6=9C=AC=E5=B7=B2=E6=9B=B4=E6=94=B9=EF=BC=9A</p>
+<ul>
+<li>Elasticsearch 5.6</li>
+<li>Gradle 4</li>
+<li>Hibernate 5.2</li>
+<li>Jetty 9.4</li>
+<li>Spring Framework 5</li>
+<li>Spring Security 5</li>
+<li>Tomcat 8.5</li>
+</ul>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8C=85=E7=BB=93=E6=9E=84=E5=8F=91=E9=80=
+=81=E5=8F=98=E6=9B=B4">=E5=8C=85=E7=BB=93=E6=9E=84=E5=8F=91=E9=80=81=E5=8F=
+=98=E6=9B=B4</h1>
+<pre>org.springframework.cloud.netflix.feign.EnableFeignClients(@</pre>
+<pre>EnableFeignClients</pre>
+<pre>)</pre>
+<p><br></p>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=B8=80=E3=80=81=E6=B7=BB=E5=8A=A0=E5=B8=
+=AE=E5=8A=A9=E8=BD=AC=E5=8C=96=E5=B7=A5=E5=85=B7=E5=8C=85">=E4=B8=80=E3=80=
+=81=E6=B7=BB=E5=8A=A0=E5=B8=AE=E5=8A=A9=E8=BD=AC=E5=8C=96=E5=B7=A5=E5=85=B7=
+=E5=8C=85</h1>
+<p>=E6=AD=A4=E5=B7=A5=E5=85=B7=E5=8C=85=E5=8F=AF=E4=BB=A5=E5=B8=AE=E5=8A=A9=
+=E8=BF=9B=E8=A1=8C=E9=A1=B9=E7=9B=AE=E5=8D=87=E7=BA=A7=EF=BC=8C=E6=89=93=E5=
+=8D=B0=E5=87=BA=E8=AF=A6=E7=BB=86=E5=90=AF=E5=8A=A8=E6=97=A5=E5=BF=97=EF=BC=
+=8C=E5=B8=AE=E5=8A=A9=E5=AF=BB=E6=89=BE=E9=97=AE=E9=A2=98=E7=82=B9=E3=80=82=
+=E5=9C=A8=E5=8D=87=E7=BA=A7=E5=AE=8C=E6=88=90=E5=90=8E=E8=AF=B7=E7=A7=BB=E9=
+=99=A4=E3=80=82</p>
+<pre><span class=3D"line">&lt;<span class=3D"name" style=3D"color: rgb(38,1=
+39,210);">dependency</span>&gt;</span><br><span class=3D"line"> <span class=
+=3D"tag">&lt;<span class=3D"name" style=3D"color: rgb(38,139,210);">groupId=
+</span>&gt;</span>org.springframework.boot<span class=3D"tag">&lt;/<span cl=
+ass=3D"name" style=3D"color: rgb(38,139,210);">groupId</span>&gt;</span></s=
+pan><br><span class=3D"line"> <span class=3D"tag">&lt;<span class=3D"name" =
+style=3D"color: rgb(38,139,210);">artifactId</span>&gt;</span>spring-boot-p=
+roperties-migrator<span class=3D"tag">&lt;/<span class=3D"name" style=3D"co=
+lor: rgb(38,139,210);">artifactId</span>&gt;</span></span><br><span class=
+=3D"line">&lt;/<span class=3D"name" style=3D"color: rgb(38,139,210);">depen=
+dency</span>&gt;</span></pre>
+<pre><span class=3D"line"><br></span></pre>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=BA=8C=E3=80=81=E5=BC=80=E5=90=AFinfoheal=
+thshutdown=E7=AB=AF=E7=82=B9=E8=AE=BF=E9=97=AE">=E4=BA=8C=E3=80=81<span sty=
+le=3D"color: rgb(0,0,0);">=E5=BC=80=E5=90=AFinfo health shutdown =E7=AB=AF=
+=E7=82=B9=E8=AE=BF=E9=97=AE</span></h1>
+<p><span style=3D"color: rgb(0,0,0);">=E7=9B=AE=E5=89=8D=E9=BB=98=E8=AE=A4=
+=E5=B7=B2=E7=BB=8F=E9=85=8D=E7=BD=AE=E5=BC=80=E5=90=AF</span></p>
+<p><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(86,90,95);"=
+>=E9=BB=98=E8=AE=A4=E5=8F=AA=E5=BC=80=E6=94=BE=E4=BA=86</span><code style=
+=3D"text-align: justify;">info=E3=80=81health</code><span style=3D"color: r=
+gb(86,90,95);">=E4=B8=A4=E4=B8=AA=E7=AB=AF=E7=82=B9=EF=BC=8C=E5=89=A9=E4=BD=
+=99=E7=9A=84=E9=9C=80=E8=A6=81=E8=87=AA=E5=B7=B1=E9=80=9A=E8=BF=87=E9=85=8D=
+=E7=BD=AE</span><code style=3D"text-align: justify;">management.endpoints.w=
+eb.exposure.include</code><span style=3D"color: rgb(86,90,95);">=E5=B1=9E=
+=E6=80=A7=E6=9D=A5=E5=8A=A0=E8=BD=BD=E8=87=AA=E5=B7=B1=E9=9C=80=E8=A6=81</s=
+pan></span></p>
+<p><br></p>
+<pre><span style=3D"color: rgb(204,120,50);">=E5=A6=82=E4=B8=8B=EF=BC=9A</s=
+pan></pre>
+<pre><span style=3D"color: rgb(204,120,50);">management.endpoint.shutdown.e=
+nabled</span><span style=3D"color: rgb(128,128,128);">=3D</span><span style=
+=3D"color: rgb(204,120,50);">true<br></span><span style=3D"color: rgb(204,1=
+20,50);">management.endpoints.web.exposure.include</span><span style=3D"col=
+or: rgb(128,128,128);">=3D</span>shutdown,env,info,health<span style=3D"col=
+or: rgb(106,135,89);"><br></span><span style=3D"color: rgb(204,120,50);">ma=
+nagement.endpoints.web.base-path</span><span style=3D"color: rgb(128,128,12=
+8);">=3D</span><span style=3D"color: rgb(106,135,89);">/</span></pre>
+<p><span style=3D"color: rgb(0,0,0);"><br></span></p>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=B8=89=E3=80=81Redis=E7=9A=84=E6=94=B9=E5=
+=8F=98"><span style=3D"color: rgb(0,0,0);">=E4=B8=89=E3=80=81Redis=E7=9A=84=
+=E6=94=B9=E5=8F=98</span></h1>
+<p><span style=3D"color: rgb(0,0,0);">=E5=9C=A82.0=E5=90=8E redis =E5=BA=95=
+=E5=B1=82=E5=B7=B2=E7=BB=8F=E9=BB=98=E8=AE=A4=E4=BF=AE=E6=94=B9=E4=B8=BA<sp=
+an style=3D"color: rgb(26,26,26);">=E4=BD=BF=E7=94=A8=E7=9A=84=E6=98=AF&nbs=
+p;</span><a href=3D"https://lettuce.io/" class=3D"external-link" rel=3D"nof=
+ollow">Lettuce</a><span style=3D"color: rgb(26,26,26);">&nbsp;=E8=80=8C=E4=
+=B8=8D=E6=98=AF&nbsp;</span><a href=3D"https://github.com/xetorthio/jedis" =
+class=3D"external-link" rel=3D"nofollow">Jedis</a><span style=3D"color: rgb=
+(26,26,26);">&nbsp;=E4=BD=9C=E4=B8=BA Redis =E9=A9=B1=E5=8A=A8=E7=A8=8B=E5=
+=BA=8F,=E4=BD=86=E6=98=AF<span style=3D"color: rgb(26,26,26);">=E4=BB=8D=E7=
+=84=B6=E6=94=AF=E6=8C=81 Jedis=EF=BC=8C=E5=A6=82=E6=9E=9C=E6=82=A8=E6=84=BF=
+=E6=84=8F=EF=BC=8C=E9=80=9A=E8=BF=87=E6=8E=92=E9=99=A4&nbsp;</span><code>io=
+.lettuce=EF=BC=9Alettuce-core</code><span style=3D"color: rgb(26,26,26);">=
+=E5=B9=B6=E6=B7=BB=E5=8A=A0&nbsp;</span><code>redis.clients=EF=BC=9Ajedis</=
+code><span style=3D"color: rgb(26,26,26);">=EF=BC=8C=E5=88=99=E5=8F=AF=E4=
+=BB=A5=E8=87=AA=E7=94=B1=E5=88=87=E6=8D=A2=E4=BE=9D=E8=B5=96=E9=A1=B9=E3=80=
+=82</span></span></span></p>
+<p><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(26,26,26);"=
+><span style=3D"color: rgb(26,26,26);">SO=E3=80=82=E3=80=82=E3=80=82</span>=
+</span></span></p>
+<p><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(26,26,26);"=
+><span style=3D"color: rgb(26,26,26);">=E9=85=8D=E7=BD=AE=E4=B9=9F=E5=8F=91=
+=E7=94=9F=E4=BA=86=E6=94=B9=E5=8F=98,=E5=9F=BA=E7=A1=80=E7=9A=84ip,port=E6=
+=98=AF=E4=B8=8D=E5=8F=98=E7=9A=84=EF=BC=8C=E5=8F=98=E5=BE=97=E5=8F=AA=E6=98=
+=AFpool=E4=B8=AD=E7=9A=84=E5=8F=82=E6=95=B0=E8=AE=BE=E7=BD=AE=EF=BC=8C=E5=
+=A6=82=E4=B8=8B</span></span></span></p>
+<p><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(26,26,26);"=
+><span style=3D"color: rgb(26,26,26);"><span class=3D"confluence-embedded-f=
+ile-wrapper confluence-embedded-manual-size"><img class=3D"confluence-embed=
+ded-image" width=3D"400" src=3D"2d479d97f217235ffba013bbbda5c6a6" data-imag=
+e-src=3D"/download/attachments/3215696/image2018-10-11_11-41-47.png?version=
+=3D1&amp;modificationDate=3D1539229308000&amp;api=3Dv2" data-unresolved-com=
+ment-count=3D"0" data-linked-resource-id=3D"3215697" data-linked-resource-v=
+ersion=3D"1" data-linked-resource-type=3D"attachment" data-linked-resource-=
+default-alias=3D"image2018-10-11_11-41-47.png" data-base-url=3D"http://wiki=
+.rdfamily.cn" data-linked-resource-content-type=3D"image/png" data-linked-r=
+esource-container-id=3D"3215696" data-linked-resource-container-version=3D"=
+30" height=3D"133"></span><br></span></span></span></p>
+<p><span style=3D"color: rgb(26,26,26);">=E6=A0=B9=E6=8D=AE=E4=BD=BF=E7=94=
+=A8=E7=9A=84=E6=98=AFjedis /lettuce=E5=8F=98=E4=B8=BA=E5=A6=82=E4=B8=8B=E9=
+=85=8D=E7=BD=AE=EF=BC=9A</span></p>
+<p><span style=3D"color: rgb(26,26,26);">Lettuce</span></p>
+<p><br></p>
+<pre><span style=3D"color: rgb(204,120,50);">spring.redis.lettuce.pool.min-=
+idle</span><span style=3D"color: rgb(128,128,128);">=3D</span><span style=
+=3D"color: rgb(104,151,187);">5<br></span><span style=3D"color: rgb(204,120=
+,50);">spring.redis.lettuce.pool.max-active</span><span style=3D"color: rgb=
+(128,128,128);">=3D</span><span style=3D"color: rgb(104,151,187);">300<br><=
+/span><span style=3D"color: rgb(204,120,50);">spring.redis.lettuce.pool.max=
+-idle</span><span style=3D"color: rgb(128,128,128);">=3D</span><span style=
+=3D"color: rgb(104,151,187);">15<br></span><span style=3D"color: rgb(204,12=
+0,50);">spring.redis.lettuce.pool.max-wait</span><span style=3D"color: rgb(=
+128,128,128);">=3D</span><span style=3D"color: rgb(106,135,89);">5000ms</sp=
+an></pre>
+<p><span style=3D"color: rgb(26,26,26);"><br></span></p>
+<p><span style=3D"color: rgb(26,26,26);">Jedis</span></p>
+<p><br></p>
+<pre><span style=3D"color: rgb(204,120,50);">spring.redis.jedis.pool.min-id=
+le</span><span style=3D"color: rgb(128,128,128);">=3D</span><span style=3D"=
+color: rgb(104,151,187);">5<br></span><span style=3D"color: rgb(204,120,50)=
+;">spring.redis.jedis.pool.max-active</span><span style=3D"color: rgb(128,1=
+28,128);">=3D</span><span style=3D"color: rgb(104,151,187);">300<br></span>=
+<span style=3D"color: rgb(204,120,50);">spring.redis.jedis.pool.max-idle</s=
+pan><span style=3D"color: rgb(128,128,128);">=3D</span><span style=3D"color=
+: rgb(104,151,187);">15<br></span><span style=3D"color: rgb(204,120,50);">s=
+pring.redis.jedis.pool.max-wait</span><span style=3D"color: rgb(128,128,128=
+);">=3D</span><span style=3D"color: rgb(106,135,89);">5000ms</span></pre>
+<p><br></p>
+<p>=E7=9B=AE=E5=89=8D2.0=E7=89=88=E6=9C=AC=E9=BB=98=E8=AE=A4=E4=BD=BF=E7=94=
+=A8lettuce =E4=BD=9C=E4=B8=BAclient =E5=A6=82=E6=9C=89=E9=9C=80=E6=B1=82=E6=
+=83=B3=E4=BD=BF=E7=94=A8jedis =E5=8F=AF=E6=8E=92=E9=99=A4lettuce jar =E5=8A=
+=A0=E5=85=A5jedis jar</p>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=9B=9B=E3=80=81Kafka">=E5=9B=9B=E3=80=81K=
+afka</h1>
+<p>1=E3=80=81kafka =E6=9C=89=E7=89=88=E6=9C=AC=E5=85=BC=E5=AE=B9=E6=80=A7=
+=E9=97=AE=E9=A2=98</p>
+<p>kafka 2.11.1.0&nbsp;=E2=86=92 kafka-client 1.0.0</p>
+<p>kafka 0.11.0=E2=86=92 kafka-client .0.11.0</p>
+<p>=E5=85=BC=E5=AE=B9=E5=87=BA=E9=94=99=E5=B0=86=E6=8A=A5</p>
+<p class=3D"gh-header-title"><span class=3D"js-issue-title">Magic v1 does n=
+ot support record headers using spring boot 2.0 and kafka client 0.11.x</sp=
+an></p>
+<p class=3D"gh-header-title"><span class=3D"js-issue-title"><br></span></p>
+<h1 class=3D"gh-header-title" id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=
+=E6=9C=AC=E5=8D=87=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=BA=94=E3=80=81=
+=E9=9D=99=E6=80=81=E8=B5=84=E6=BA=90=E8=A2=AB=E6=8B=A6=E6=88=AA"><span clas=
+s=3D"js-issue-title">=E4=BA=94=E3=80=81</span>=E9=9D=99=E6=80=81=E8=B5=84=
+=E6=BA=90=E8=A2=AB=E6=8B=A6=E6=88=AA</h1>
+<p>=E9=97=AE=E9=A2=98=EF=BC=9A<br>=E8=AE=BF=E9=97=AE=E7=B3=BB=E7=BB=9F=E7=
+=9A=84=E6=97=B6=E5=80=99=E7=99=BB=E5=BD=95=E6=A0=B7=E5=BC=8F=E6=B2=A1=E6=9C=
+=89=E5=8A=A0=E8=BD=BD</p>
+<p>=E5=8E=9F=E5=9B=A0=EF=BC=9A<br>1.5=E7=89=88=E6=9C=AC=E6=97=B6=E5=80=99ME=
+TA-INF/resources / resources / static / public =E9=83=BD=E6=98=AFspring boo=
+t =E8=AE=A4=E4=B8=BA=E9=9D=99=E6=80=81=E8=B5=84=E6=BA=90=E5=BA=94=E8=AF=A5=
+=E6=94=BE=E7=BD=AE=E7=9A=84=E4=BD=8D=E7=BD=AE=EF=BC=8C=E4=BC=9A=E8=87=AA=E5=
+=8A=A8=E5=8E=BB=E5=AF=BB=E6=89=BE=E9=9D=99=E6=80=81=E8=B5=84=E6=BA=90=EF=BC=
+=8C=E8=80=8C=E5=9C=A8spring boot 2.0=E5=88=99=E5=AF=B9=E9=9D=99=E6=80=81=E8=
+=B5=84=E6=BA=90=E4=B9=9F=E8=BF=9B=E8=A1=8C=E4=BA=86=E6=8B=A6=E6=88=AA=EF=BC=
+=8C=E5=BD=93=E6=8B=A6=E6=88=AA=E5=99=A8=E6=8B=A6=E6=88=AA=E5=88=B0=E8=AF=B7=
+=E6=B1=82=E4=B9=8B=E5=90=8E=EF=BC=8C=E4=BD=86controller=E9=87=8C=E5=B9=B6=
+=E6=B2=A1=E6=9C=89=E5=AF=B9=E5=BA=94=E7=9A=84=E8=AF=B7=E6=B1=82=E6=97=B6=EF=
+=BC=8C=E8=AF=A5=E8=AF=B7=E6=B1=82=E4=BC=9A=E8=A2=AB=E5=BD=93=E6=88=90=E6=98=
+=AF=E5=AF=B9=E9=9D=99=E6=80=81=E8=B5=84=E6=BA=90=E7=9A=84=E8=AF=B7=E6=B1=82=
+=E3=80=82=E6=AD=A4=E6=97=B6=E7=9A=84handler=E5=B0=B1=E6=98=AF ResourceHttpR=
+equestHandler=EF=BC=8C=E5=B0=B1=E4=BC=9A=E6=8A=9B=E5=87=BA=E4=B8=8A=E8=BF=
+=B0=E9=94=99=E8=AF=AF=E3=80=82</p>
+<p>=E8=A7=A3=E5=86=B3=E6=96=B9=E6=A1=88=EF=BC=9A<br>=E8=A7=A3=E5=86=B3=E5=
+=8A=9E=E6=B3=95=E5=B0=B1=E6=98=AF=EF=BC=8C=E5=9C=A8=E6=8B=A6=E6=88=AA=E5=99=
+=A8=E9=82=A3=E9=87=8C=E6=8E=92=E9=99=A4=E9=9D=99=E6=80=81=E8=B5=84=E6=BA=90=
+=E7=9A=84=E8=AF=B7=E6=B1=82=E8=B7=AF=E5=BE=84</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">/** =20
+* =E6=8B=A6=E6=88=AA=E5=99=A8=20
+* @param registry=20
+*/=20
+@Override=20
+public void addInterceptors(InterceptorRegistry registry) {=20
+
+// addPathPatterns =E7=94=A8=E4=BA=8E=E6=B7=BB=E5=8A=A0=E6=8B=A6=E6=88=AA=
+=E8=A7=84=E5=88=99=20
+// excludePathPatterns =E7=94=A8=E6=88=B7=E6=8E=92=E9=99=A4=E6=8B=A6=E6=88=
+=AA=20
+registry.addInterceptor(new MyInterceptor()).addPathPatterns("/**").exclude=
+PathPatternss("/toLogin","/login","/assets/**","/js/**");
+}=20
+
+</pre>=20
+</div>
+</div>
+<p><br></p>
+<p>assets=E5=B0=B1=E6=98=AF=E6=88=91=E6=94=BE=E9=9D=99=E6=80=81=E6=96=87=E4=
+=BB=B6=E7=9A=84=E7=9B=AE=E5=BD=95</p>
+<p><span class=3D"confluence-embedded-file-wrapper confluence-embedded-manu=
+al-size"><img class=3D"confluence-embedded-image confluence-external-resour=
+ce" width=3D"300" src=3D"https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_=
+png/pcT41pYWuUFiaVBGaOYwGThMsz3EVW5XicnAvcWAXBldGvacNyia7tl4NeEYmO7ppmukAp9=
+Ol4Cy54KKKCVYWcIZA/640?wx_fmt=3Dpng" data-image-src=3D"https://ss.csdn.net/=
+p?https://mmbiz.qpic.cn/mmbiz_png/pcT41pYWuUFiaVBGaOYwGThMsz3EVW5XicnAvcWAX=
+BldGvacNyia7tl4NeEYmO7ppmukAp9Ol4Cy54KKKCVYWcIZA/640?wx_fmt=3Dpng"></span><=
+/p>
+<p class=3D"gh-header-title"><span class=3D"js-issue-title"><br></span></p>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=85=AD=E3=80=81=E5=85=A8=E5=B1=80=E5=BC=
+=82=E5=B8=B8=E7=89=B9=E6=AE=8A=E5=A4=84=E7=90=86"><span style=3D"color: rgb=
+(26,26,26);">=E5=85=AD=E3=80=81</span><span style=3D"color: inherit;">=E5=
+=85=A8=E5=B1=80=E5=BC=82=E5=B8=B8=E7=89=B9=E6=AE=8A=E5=A4=84=E7=90=86</span=
+></h1>
+<p><span style=3D"color: inherit;"><br></span></p>
+<p><br></p>
+<p><span style=3D"color: inherit;">=E9=97=AE=E9=A2=98</span>=EF=BC=9A<br>=
+=E4=B8=8A=E4=B8=80=E7=AF=87=E6=8F=90=E5=88=B0=E8=BF=87=E7=9A=84=E6=9C=89=E4=
+=BA=9B=E9=94=99=E8=AF=AF=E4=BD=A0=E5=8F=AF=E8=83=BD=E6=83=B3=E7=89=B9=E6=AE=
+=8A=E5=AF=B9=E5=BE=85=E5=A4=84=E7=90=86=E7=9A=84=EF=BC=8C=E7=8E=B0=E5=9C=A8=
+=E5=AF=B9=E5=BA=94=E4=BB=A3=E7=A0=81=E6=A0=87=E7=BA=A2=EF=BC=8C=E6=89=BE=E4=
+=B8=8D=E5=88=B0=E5=AF=B9=E5=BA=94=E7=9A=84=E7=B1=BB</p>
+<p><br></p>
+<p><span style=3D"color: inherit;">=E5=8E=9F=E5=9B=A0</span>=EF=BC=9A<br>=
+=E6=96=B0=E7=89=88=E6=9C=AC=E5=90=8E=E8=AF=A5=E6=96=B9=E6=B3=95=E5=8E=BB=E6=
+=8E=89=E4=BA=86=EF=BC=8C=E9=9C=80=E8=A6=81=E6=8D=A2=E6=88=90=E6=96=B0=E7=9A=
+=84=E6=96=B9=E6=B3=95=E5=A4=84=E7=90=86=E3=80=82</p>
+<p><br></p>
+<p><span style=3D"color: inherit;">=E8=A7=A3=E5=86=B3=E6=96=B9=E6=A1=88</sp=
+an>=EF=BC=9A<br>=E6=97=A7=E4=BB=A3=E7=A0=81=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">@Config=
+uration
+    public class ContainerConfig {
+        @Bean
+        public EmbeddedServletContainerCustomizer containerCustomizer(){
+            return new EmbeddedServletContainerCustomizer(){
+                @Override
+                public void customize(ConfigurableEmbeddedServletContainer =
+container) {
+                    container.addErrorPages(new ErrorPage(HttpStatus.INTERN=
+AL_SERVER_ERROR, "/error/500"));
+                    container.addErrorPages(new ErrorPage(HttpStatus.NOT_FO=
+UND, "/error/404"));
+                }
+            };
+        }
+    }</pre>=20
+</div>
+</div>
+<p><span style=3D"color: inherit;"><span style=3D"color: rgb(62,62,62);">=
+=E6=96=B0=E4=BB=A3=E7=A0=81=EF=BC=9A</span></span></p>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">@Config=
+uration
+public class ContainerConfig implements ErrorPageRegistrar {
+    @Override
+    public void registerErrorPages(ErrorPageRegistry registry) {
+        ErrorPage[] errorPages =3D new ErrorPage[2];
+        errorPages[0] =3D new ErrorPage(HttpStatus.INTERNAL_SERVER_ERROR, "=
+/error/500");
+        errorPages[1] =3D new ErrorPage(HttpStatus.NOT_FOUND, "/error/404")=
+;
+        registry.addErrorPages(errorPages);
+    }
+}</pre>=20
+</div>
+</div>
+<p><span style=3D"color: inherit;"><br></span></p>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=B8=83=E3=80=81=E6=8B=A6=E6=88=AA=E5=99=
+=A8=E8=BF=87=E6=97=B6">=E4=B8=83=E3=80=81<span style=3D"color: inherit;">=
+=E6=8B=A6=E6=88=AA=E5=99=A8=E8=BF=87=E6=97=B6</span></h1>
+<p>=E9=97=AE=E9=A2=98=EF=BC=9A<br>=E5=8D=87=E7=BA=A7=E5=90=8E=EF=BC=8CWebMv=
+cConfigurerAdapter=E6=8F=90=E7=A4=BA=E8=BF=87=E6=97=B6=E3=80=82</p>
+<p>=E5=8E=9F=E5=9B=A0=EF=BC=9A<br>=E5=8D=87=E7=BA=A7=E5=90=8E=E7=9A=84sprin=
+gBoot=EF=BC=8C=E4=BD=BF=E7=94=A8=E4=BA=86java8=E7=9A=84=E7=89=B9=E6=80=A7 d=
+efault =E6=96=B9=E6=B3=95=EF=BC=8C=E6=89=80=E4=BB=A5=E7=9B=B4=E6=8E=A5=E5=
+=AE=9E=E7=8E=B0 WebMvcConfigurer =E8=BF=99=E4=B8=AA=E6=8E=A5=E5=8F=A3=E5=8D=
+=B3=E5=8F=AF=E3=80=82</p>
+<p>=E8=A7=A3=E5=86=B3=E6=96=B9=E6=A1=88=EF=BC=9A<br>=E6=97=A7=EF=BC=9A</p>
+<p>public&nbsp;class&nbsp;MyWebMvcConfigurerAdapter&nbsp;extends&nbsp;WebMv=
+cConfigurerAdapter<br>=E6=96=B0=EF=BC=9A</p>
+<p>public&nbsp;class&nbsp;MyWebMvcConfigurerAdapter&nbsp;implements&nbsp;We=
+bMvcConfigurer&nbsp;</p>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=85=AB=E3=80=81SleuthZipkin=E6=8A=BD=E6=
+=A0=B7=E6=8A=93=E5=8F=96">=E5=85=AB=E3=80=81Sleuth Zipkin=E6=8A=BD=E6=A0=B7=
+=E6=8A=93=E5=8F=96</h1>
+<p>=E4=BB=A5=E5=89=8D=E6=98=AF</p>
+<pre><span style=3D"color: rgb(204,120,50);">spring.sleuth.sample.percentag=
+e</span><span style=3D"color: rgb(128,128,128);">=3D</span><span style=3D"c=
+olor: rgb(106,135,89);">1.0f</span></pre>
+<p>=E7=8E=B0=E5=9C=A8</p>
+<pre><span style=3D"color: rgb(204,120,50);">spring.sleuth.sampler.probabil=
+ity</span><span style=3D"color: rgb(128,128,128);">=3D</span><span style=3D=
+"color: rgb(104,151,187);">1.0f<br></span></pre>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=B9=9D=E3=80=81=E6=95=B0=E6=8D=AE=E6=8A=
+=93=E5=8F=96">=E4=B9=9D=E3=80=81=E6=95=B0=E6=8D=AE=E6=8A=93=E5=8F=96</h1>
+<p>=E6=95=B0=E6=8D=AE=E6=8A=93=E5=8F=96=E5=9C=A81.5.6=E5=90=8E=E5=B0=86=E4=
+=B8=8E=E4=B8=9A=E5=8A=A1kafka=E6=8B=86=E5=88=86</p>
+<p>=E5=B0=86=E7=94=A8=E4=BA=8E=E6=95=B0=E6=8D=AE=E4=BC=A0=E8=BE=93=E7=9A=84=
+=E9=80=9A=E9=81=93=EF=BC=9A</p>
+<pre><span style=3D"color: rgb(106,135,89);">redefine.kafka.bootstrap-serve=
+rs=3Dxxx</span></pre>
+<p><br></p>
+<p>=E5=B0=86=E7=94=A8=E4=BA=8E=E4=B8=9A=E5=8A=A1=E5=92=8Cbus=E9=80=9A=E9=81=
+=93</p>
+<pre><span style=3D"color: rgb(204,120,50);">spring.kafka.bootstrap-servers=
+=3Dxxx</span></pre>
+<p>=E8=AF=B4=E7=99=BD=E4=BA=86=E5=B0=B1=E6=98=AF=E8=87=AA=E5=BB=BA=E4=BA=86=
+=E4=B8=80=E5=A5=97=E9=9A=94=E7=A6=BB</p>
+<p><br></p>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E3=80=81=E9=85=8D=E7=BD=AE=E6=95=
+=B0=E6=8D=AE=E6=BA=90">=E5=8D=81=E3=80=81<span style=3D"color: rgb(112,112,=
+112);">=E9=85=8D=E7=BD=AE=E6=95=B0=E6=8D=AE=E6=BA=90</span></h1>
+<p>=E9=BB=98=E8=AE=A4=E8=BF=9E=E6=8E=A5=E6=B1=A0=E5=B7=B2=E4=BB=8E Tomcat =
+=E5=88=87=E6=8D=A2=E5=88=B0 HikariCP=E3=80=82=E5=A6=82=E6=9E=9C=E6=82=A8=E8=
+=BF=87=E5=8E=BB<code>spring.datasource.type</code>=E5=9C=A8=E5=9F=BA=E4=BA=
+=8E Tomcat =E7=9A=84=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E4=B8=AD=E5=BC=BA=
+=E5=88=B6=E4=BD=BF=E7=94=A8 Hikari=EF=BC=8C=E7=8E=B0=E5=9C=A8=E5=8F=AF=E4=
+=BB=A5=E5=88=A0=E9=99=A4=E9=87=8D=E5=86=99=E3=80=82</p>
+<p>=E7=89=B9=E5=88=AB=E6=98=AF=EF=BC=8C=E5=A6=82=E6=9E=9C=E4=BD=A0=E6=9C=89=
+=E8=BF=99=E6=A0=B7=E7=9A=84=E8=AE=BE=E7=BD=AE=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;dep=
+endency&gt;
+=09&lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+=09&lt;artifactId&gt;spring-boot-starter-data-jpa&lt;/artifactId&gt;
+=09&lt;exclusions&gt;
+=09=09&lt;exclusion&gt;
+=09=09=09&lt;groupId&gt;org.apache.tomcat&lt;/groupId&gt;
+=09=09=09&lt;artifactId&gt;tomcat-jdbc&lt;/artifactId&gt;
+=09=09&lt;/exclusion&gt;
+=09&lt;/exclusions&gt;
+&lt;/dependency&gt;
+
+&lt;dependency&gt;
+=09&lt;groupId&gt;com.zaxxer&lt;/groupId&gt;
+=09&lt;artifactId&gt;HikariCP&lt;/artifactId&gt;
+&lt;/dependency&gt;</pre>=20
+</div>
+</div>
+<p><br><br></p>
+<p>=E7=8E=B0=E5=9C=A8=E5=8F=AF=E4=BB=A5=E8=BF=99=E6=A0=B7=E4=BF=AE=E6=94=B9=
+=EF=BC=9A</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;dep=
+endency&gt;
+=09&lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+=09&lt;artifactId&gt;spring-boot-starter-data-jpa&lt;/artifactId&gt;
+&lt;/dependency&gt;</pre>=20
+</div>
+</div>
+<h1 class=3D"auto-cursor-target" id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=
+=88=E6=9C=AC=E5=8D=87=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E4=B8=
+=80=E3=80=81=E7=AB=AF=E7=82=B9=E7=9B=91=E6=8E=A7">=E5=8D=81=E4=B8=80=E3=80=
+=81=E7=AB=AF=E7=82=B9=E7=9B=91=E6=8E=A7</h1>
+<p><span style=3D"color: rgb(86,90,95);">=E9=9C=80=E8=A6=81=E6=B3=A8=E6=84=
+=8F=E7=9A=84=E6=98=AF=E5=9C=A8</span><code>2.x</code><span style=3D"color: =
+rgb(86,90,95);">=EF=BC=8C<code>management.security.*</code><span style=3D"c=
+olor: rgb(86,90,95);">=E5=B1=9E=E6=80=A7=E6=B6=88=E5=A4=B1=EF=BC=8C</span><=
+/span><code>health</code><span style=3D"color: rgb(86,90,95);">=E5=92=8C</s=
+pan><code>info</code><span style=3D"color: rgb(86,90,95);">=E5=9C=A8=E9=BB=
+=98=E8=AE=A4=E6=83=85=E5=86=B5=E4=B8=8B=E5=90=AF=E7=94=A8=EF=BC=88=E4=B8=8E=
+</span><code>health</code><span style=3D"color: rgb(86,90,95);">=E9=BB=98=
+=E8=AE=A4=E6=83=85=E5=86=B5=E4=B8=8B=E4=B8=8D=E6=98=BE=E7=A4=BA=E5=85=B6=E7=
+=BB=86=E8=8A=82=EF=BC=89=E3=80=82=E4=B8=BA=E4=BA=86=E4=B8=8E=E8=BF=99=E4=BA=
+=9B=E6=96=B0=E7=9A=84=E9=BB=98=E8=AE=A4=E5=80=BC=E4=B8=80=E8=87=B4=EF=BC=8C=
+</span><code>health</code><span style=3D"color: rgb(86,90,95);">=E5=B7=B2=
+=E8=A2=AB=E6=B7=BB=E5=8A=A0=E5=88=B0=E7=AC=AC=E4=B8=80=E4=B8=AA=E5=8C=B9=E9=
+=85=8D=E5=99=A8=E3=80=82</span></p>
+<p><span style=3D"color: rgb(61,70,77);">=E7=94=B1=E4=BA=8E2.0=E7=9A=84=E6=
+=94=B9=E5=8A=A8=E8=BE=83=E5=A4=A7=EF=BC=8C/bus/refresh=E5=85=A8=E9=83=A8=E6=
+=95=B4=E5=90=88=E5=88=B0actuador=E9=87=8C=E9=9D=A2=E4=BA=86=EF=BC=8C=E6=89=
+=80=E4=BB=A5=E4=B9=8B=E5=89=8D1.x=E7=9A=84management.security.enabled=E5=85=
+=A8=E9=83=A8=E5=A4=B1=E6=95=88=EF=BC=8C=E4=B8=8D=E9=80=82=E7=94=A8=E4=BA=8E=
+2.0</span></p>
+<p>=E6=89=80=E4=BB=A5=E9=9C=80=E8=A6=81=E4=BB=A5=E4=B8=8B=E9=85=8D=E7=BD=AE=
+</p>
+<pre><span style=3D"color: rgb(204,120,50);">management.endpoint.shutdown.e=
+nabled</span><span style=3D"color: rgb(128,128,128);">=3D</span><span style=
+=3D"color: rgb(204,120,50);">true<br></span><span style=3D"color: rgb(204,1=
+20,50);">management.endpoints.web.exposure.include</span><span style=3D"col=
+or: rgb(128,128,128);">=3D</span><span style=3D"color: rgb(106,135,89);">*<=
+br></span><span style=3D"color: rgb(204,120,50);">management.endpoints.web.=
+base-path</span><span style=3D"color: rgb(128,128,128);">=3D</span><span st=
+yle=3D"color: rgb(106,135,89);">/</span></pre>
+<p><br></p>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E4=BA=8C=E3=80=81=E9=BB=98=E8=AE=
+=A4=E5=8A=A8=E6=80=81=E4=BB=A3=E7=90=86=E7=AD=96=E7=95=A5">=E5=8D=81=E4=BA=
+=8C=E3=80=81=E9=BB=98=E8=AE=A4=E5=8A=A8=E6=80=81=E4=BB=A3=E7=90=86=E7=AD=96=
+=E7=95=A5</h1>
+<p>Spring Boot =E9=BB=98=E8=AE=A4=E4=BD=BF=E7=94=A8 CGLIB =E5=81=9A=E5=8A=
+=A8=E6=80=81=E4=BB=A3=E7=90=86=E4=BB=A3=E7=90=86(=E5=9F=BA=E4=BA=8E=E7=B1=
+=BB=E7=9A=84=E5=8A=A8=E6=80=81=E4=BB=A3=E7=90=86)=EF=BC=8C=E5=8C=85=E6=8B=
+=AC=E5=AF=B9 AOP =E7=9A=84=E6=94=AF=E6=8C=81=E3=80=82=E5=A6=82=E6=9E=9C=E4=
+=BD=A0=E9=9C=80=E8=A6=81=E5=9F=BA=E4=BA=8E=E6=8E=A5=E5=8F=A3=E7=9A=84=E5=8A=
+=A8=E6=80=81=E4=BB=A3=E7=90=86=EF=BC=8C=E4=BD=A0=E9=9C=80=E8=A6=81=E5=B0=86=
+<code>spring.aop.proxy-target-class</code>&nbsp;=E8=AE=BE=E7=BD=AE=E4=B8=BA=
+<code>false</code>=E3=80=82</p>
+<p><br></p>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E4=B8=89=E3=80=81Web=E7=8E=AF=E5=
+=A2=83"><strong>=E5=8D=81=E4=B8=89=E3=80=81<span style=3D"color: rgb(112,11=
+2,112);">Web =E7=8E=AF=E5=A2=83</span></strong></h1>
+<p><strong>Spring Boot =E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E7=8E=B0=E5=9C=
+=A8=E5=8F=AF=E4=BB=A5=E5=9C=A8=E6=9B=B4=E5=A4=9A=E6=A8=A1=E5=BC=8F=E4=B8=8B=
+=E8=BF=90=E8=A1=8C=EF=BC=8C=E5=9B=A0=E6=AD=A4<code>spring.main.web-environm=
+ent</code>=E7=8E=B0=E5=9C=A8=E4=B8=8D=E6=8E=A8=E8=8D=90=E4=BD=BF=E7=94=A8=
+=EF=BC=8C<code>spring.main.web-application-type</code>=E5=B1=9E=E6=80=A7=E5=
+=8F=AF=E4=BB=A5=E6=8F=90=E4=BE=9B=E6=9B=B4=E5=A4=9A=E7=9A=84=E6=94=AF=E6=8C=
+=81=E3=80=82</strong></p>
+<p>=E5=A6=82=E6=9E=9C=E6=82=A8=E6=83=B3=E7=A1=AE=E4=BF=9D=E5=BA=94=E7=94=A8=
+=E7=A8=8B=E5=BA=8F=E4=B8=8D=E5=90=AF=E5=8A=A8 Web =E6=9C=8D=E5=8A=A1=E5=99=
+=A8=EF=BC=8C=E5=88=99=E5=BF=85=E9=A1=BB=E5=B0=86=E8=AF=A5=E5=B1=9E=E6=80=A7=
+=E6=9B=B4=E6=94=B9=E4=B8=BA=EF=BC=9A</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><pre><span class=3D"line">spring.main.web-applic=
+ation-type=3Dnone</span></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>=E6=B3=A8=E6=84=8F=EF=BC=9A=E5=8F=AF=E4=BB=A5=E9=80=9A=E8=BF=87&nbsp;<co=
+de>SpringApplication</code>&nbsp;=E7=9A=84&nbsp;<code>setWebApplicationType=
+</code>&nbsp;=E6=96=B9=E6=B3=95=E5=AE=9E=E7=8E=B0=E3=80=82</p>
+<p><br></p>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E5=9B=9B=E3=80=81SpringBoot=E5=BA=
+=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E4=BA=8B=E4=BB=B6=E6=9B=B4=E6=94=B9">=E5=8D=
+=81=E5=9B=9B=E3=80=81<span style=3D"color: rgb(112,112,112);">Spring Boot =
+=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E4=BA=8B=E4=BB=B6=E6=9B=B4=E6=94=B9</s=
+pan></h1>
+<p>=E6=88=91=E4=BB=AC=E5=B7=B2=E7=BB=8F=E6=B7=BB=E5=8A=A0=E4=BA=86=E4=B8=80=
+=E4=B8=AA=E6=96=B0=E4=BA=8B=E4=BB=B6<code>ApplicationStartedEvent</code>=E3=
+=80=82&nbsp;<code>ApplicationStartedEvent</code>=E5=9C=A8=E4=B8=8A=E4=B8=8B=
+=E6=96=87=E5=88=B7=E6=96=B0=E4=B9=8B=E5=90=8E=E4=BD=86=E5=9C=A8=E4=BB=BB=E4=
+=BD=95=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E5=92=8C=E5=91=BD=E4=BB=A4=E8=A1=
+=8C=E5=8F=82=E6=95=B0=E8=A2=AB=E8=B0=83=E7=94=A8=E4=B9=8B=E5=89=8D=E5=8F=91=
+=E9=80=81=E3=80=82&nbsp;<code>ApplicationReadyEvent</code>=E5=9C=A8=E4=BB=
+=BB=E4=BD=95=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E5=92=8C=E5=91=BD=E4=BB=A4=
+=E8=A1=8C=E5=8F=82=E6=95=B0=E8=A2=AB=E8=B0=83=E7=94=A8=E5=90=8E=E5=8F=91=E9=
+=80=81=E3=80=82=E5=AE=83=E8=A1=A8=E7=A4=BA=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=
+=8F=E5=B7=B2=E5=87=86=E5=A4=87=E5=A5=BD=E4=B8=BA=E8=AF=B7=E6=B1=82=E6=8F=90=
+=E4=BE=9B=E6=9C=8D=E5=8A=A1=E3=80=82</p>
+<p><br></p>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E4=BA=94=E3=80=81=E5=BC=80=E5=8F=
+=91Web=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F">=E5=8D=81=E4=BA=94=E3=80=81=E5=
+=BC=80=E5=8F=91 Web =E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F</h1>
+<p><strong>=E5=B5=8C=E5=85=A5=E5=BC=8F=E5=AE=B9=E5=99=A8=E5=8C=85=E8=A3=85=
+=E7=BB=93=E6=9E=84</strong></p>
+<p><strong>=E4=B8=BA=E4=BA=86=E6=94=AF=E6=8C=81=E5=93=8D=E5=BA=94=E5=BC=8F=
+=E7=94=A8=E4=BE=8B=EF=BC=8C=E5=B5=8C=E5=85=A5=E5=BC=8F=E5=AE=B9=E5=99=A8=E5=
+=8C=85=E7=BB=93=E6=9E=84=E5=B7=B2=E7=BB=8F=E8=A2=AB=E5=A4=A7=E5=B9=85=E5=BA=
+=A6=E7=9A=84=E9=87=8D=E6=9E=84=E3=80=82&nbsp;<code>EmbeddedServletContainer=
+</code>=E5=B7=B2=E8=A2=AB=E9=87=8D=E6=96=B0=E5=91=BD=E5=90=8D=E4=B8=BA=EF=
+=BC=8C<code>WebServer</code>=E5=B9=B6=E4=B8=94=E8=AF=A5<code>org.springfram=
+ework.boot.context.embedded</code>=E5=8C=85=E5=B7=B2=E8=A2=AB=E9=87=8D=E6=
+=96=B0=E5=AE=9A=E4=BD=8D=E5=88=B0<code>org.springframework.boot.web.embedde=
+d</code>=E3=80=82=E4=BE=8B=E5=A6=82=EF=BC=8C=E5=A6=82=E6=9E=9C=E6=82=A8=E4=
+=BD=BF=E7=94=A8<code>TomcatEmbeddedServletContainerFactory</code>=E5=9B=9E=
+=E8=B0=83=E6=8E=A5=E5=8F=A3=E5=AE=9A=E5=88=B6=E5=B5=8C=E5=85=A5=E5=BC=8F To=
+mcat =E5=AE=B9=E5=99=A8=EF=BC=8C=E5=88=99=E5=BA=94=E8=AF=A5=E4=BD=BF=E7=94=
+=A8<code>TomcatServletWebServerFactory</code>=E3=80=82</strong></p>
+<p><br></p>
+<p><strong>=E7=89=B9=E5=AE=9A=E4=BA=8E Servlet =E7=9A=84=E6=9C=8D=E5=8A=A1=
+=E5=99=A8=E5=B1=9E=E6=80=A7</strong></p>
+<p><strong>=E8=AE=B8=E5=A4=9A<code>server.*</code>&nbsp;=E5=B1=9E=E6=80=A7 =
+( Servlet =E7=89=B9=E6=9C=89=E7=9A=84) =E5=B7=B2=E7=BB=8F=E8=BD=AC=E7=A7=BB=
+=E5=88=B0<code>server.servlet</code>=EF=BC=9A</strong></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th style=3D"text-align: left;" class=3D"confluenceTh">=E6=97=A7=E7=9A=84=
+=E5=B1=9E=E6=80=A7</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">=E6=96=B0=E7=9A=84=
+=E5=B1=9E=E6=80=A7</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd">server.context-parameters.*</td>
+<td class=3D"confluenceTd">server.servlet.context-parameters.*</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">server.context-path</td>
+<td class=3D"confluenceTd">server.servlet.context-path</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">server.jsp.class-name</td>
+<td class=3D"confluenceTd">server.servlet.jsp.class-name</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">server.jsp.init-parameters.*</td>
+<td class=3D"confluenceTd">server.servlet.jsp.init-parameters.*</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">server.jsp.registered</td>
+<td class=3D"confluenceTd">server.servlet.jsp.registered</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">server.servlet-path</td>
+<td class=3D"confluenceTd">server.servlet.path</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E5=85=AD=E3=80=81Servlet=E8=BF=87=
+=E6=BB=A4=E5=99=A8">=E5=8D=81=E5=85=AD=E3=80=81<span style=3D"color: rgb(11=
+2,112,112);">Servlet =E8=BF=87=E6=BB=A4=E5=99=A8</span></h1>
+<p>Servlet =E8=BF=87=E6=BB=A4=E5=99=A8=E7=9A=84=E9=BB=98=E8=AE=A4=E8=B0=83=
+=E5=BA=A6=E7=A8=8B=E5=BA=8F=E7=B1=BB=E5=9E=8B=E7=8E=B0=E5=9C=A8=E6=98=AF<co=
+de>DipatcherType.REQUEST</code>; =E8=BF=99=E4=BD=BF Spring Boot =E7=9A=84=
+=E9=BB=98=E8=AE=A4=E5=80=BC=E4=B8=8E Servlet =E8=A7=84=E8=8C=83=E7=9A=84=E9=
+=BB=98=E8=AE=A4=E5=80=BC=E4=B8=80=E8=87=B4=E3=80=82=E5=A6=82=E6=9E=9C=E6=82=
+=A8=E5=B8=8C=E6=9C=9B=E5=B0=86=E8=BF=87=E6=BB=A4=E5=99=A8=E6=98=A0=E5=B0=84=
+=E5=88=B0=E5=85=B6=E4=BB=96=E8=B0=83=E5=BA=A6=E7=A8=8B=E5=BA=8F=E7=B1=BB=E5=
+=9E=8B=EF=BC=8C=E8=AF=B7=E4=BD=BF=E7=94=A8<code>FilterRegistrationBean</cod=
+e>=E6=B3=A8=E5=86=8C=E6=82=A8=E7=9A=84=E8=BF=87=E6=BB=A4=E5=99=A8=E3=80=82<=
+/p>
+<p>=E6=B3=A8=E6=84=8F=EF=BC=9ASpring Security =E5=92=8C Spring Session =E8=
+=BF=87=E6=BB=A4=E5=99=A8=E9=85=8D=E7=BD=AE&nbsp;<code>ASYNC</code>,&nbsp;<c=
+ode>ERROR</code>=E4=BB=A5=E5=8F=8A&nbsp;<code>REQUEST</code>&nbsp;=E8=B0=83=
+=E5=BA=A6=E7=B1=BB=E5=9E=8B=E3=80=82</p>
+<p><br></p>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E4=B8=83=E3=80=81=E4=BD=BF=E7=94=
+=A8SQL=E6=95=B0=E6=8D=AE=E5=BA=93">=E5=8D=81=E4=B8=83=E3=80=81=E4=BD=BF=E7=
+=94=A8 SQL =E6=95=B0=E6=8D=AE=E5=BA=93</h1>
+<p>=E9=85=8D=E7=BD=AE=E6=95=B0=E6=8D=AE=E6=BA=90</p>
+<p>=E9=BB=98=E8=AE=A4=E8=BF=9E=E6=8E=A5=E6=B1=A0=E5=B7=B2=E4=BB=8E Tomcat =
+=E5=88=87=E6=8D=A2=E5=88=B0 HikariCP=E3=80=82=E5=A6=82=E6=9E=9C=E6=82=A8=E8=
+=BF=87=E5=8E=BB<code>spring.datasource.type</code>=E5=9C=A8=E5=9F=BA=E4=BA=
+=8E Tomcat =E7=9A=84=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E4=B8=AD=E5=BC=BA=
+=E5=88=B6=E4=BD=BF=E7=94=A8 Hikari=EF=BC=8C=E7=8E=B0=E5=9C=A8=E5=8F=AF=E4=
+=BB=A5=E5=88=A0=E9=99=A4=E9=87=8D=E5=86=99=E3=80=82</p>
+<p>=E7=89=B9=E5=88=AB=E6=98=AF=EF=BC=8C=E5=A6=82=E6=9E=9C=E4=BD=A0=E6=9C=89=
+=E8=BF=99=E6=A0=B7=E7=9A=84=E8=AE=BE=E7=BD=AE=EF=BC=9A</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><pre><span class=3D"line"><span class=3D"tag">&l=
+t;<span class=3D"name" style=3D"color: rgb(38,139,210);">dependency</span>&=
+gt;</span></span><br><span class=3D"line"> <span class=3D"tag">&lt;<span cl=
+ass=3D"name" style=3D"color: rgb(38,139,210);">groupId</span>&gt;</span>org=
+.springframework.boot<span class=3D"tag">&lt;/<span class=3D"name" style=3D=
+"color: rgb(38,139,210);">groupId</span>&gt;</span></span><br><span class=
+=3D"line"> <span class=3D"tag">&lt;<span class=3D"name" style=3D"color: rgb=
+(38,139,210);">artifactId</span>&gt;</span>spring-boot-starter-data-jpa<spa=
+n class=3D"tag">&lt;/<span class=3D"name" style=3D"color: rgb(38,139,210);"=
+>artifactId</span>&gt;</span></span><br><span class=3D"line"> <span class=
+=3D"tag">&lt;<span class=3D"name" style=3D"color: rgb(38,139,210);">exclusi=
+ons</span>&gt;</span></span><br><span class=3D"line"> <span class=3D"tag">&=
+lt;<span class=3D"name" style=3D"color: rgb(38,139,210);">exclusion</span>&=
+gt;</span></span><br><span class=3D"line"> <span class=3D"tag">&lt;<span cl=
+ass=3D"name" style=3D"color: rgb(38,139,210);">groupId</span>&gt;</span>org=
+.apache.tomcat<span class=3D"tag">&lt;/<span class=3D"name" style=3D"color:=
+ rgb(38,139,210);">groupId</span>&gt;</span></span><br><span class=3D"line"=
+> <span class=3D"tag">&lt;<span class=3D"name" style=3D"color: rgb(38,139,2=
+10);">artifactId</span>&gt;</span>tomcat-jdbc<span class=3D"tag">&lt;/<span=
+ class=3D"name" style=3D"color: rgb(38,139,210);">artifactId</span>&gt;</sp=
+an></span><br><span class=3D"line"> <span class=3D"tag">&lt;/<span class=3D=
+"name" style=3D"color: rgb(38,139,210);">exclusion</span>&gt;</span></span>=
+<br><span class=3D"line"> <span class=3D"tag">&lt;/<span class=3D"name" sty=
+le=3D"color: rgb(38,139,210);">exclusions</span>&gt;</span></span><br><span=
+ class=3D"line"><span class=3D"tag">&lt;/<span class=3D"name" style=3D"colo=
+r: rgb(38,139,210);">dependency</span>&gt;</span></span><br><br><span class=
+=3D"line"><span class=3D"tag">&lt;<span class=3D"name" style=3D"color: rgb(=
+38,139,210);">dependency</span>&gt;</span></span><br><span class=3D"line"> =
+<span class=3D"tag">&lt;<span class=3D"name" style=3D"color: rgb(38,139,210=
+);">groupId</span>&gt;</span>com.zaxxer<span class=3D"tag">&lt;/<span class=
+=3D"name" style=3D"color: rgb(38,139,210);">groupId</span>&gt;</span></span=
+><br><span class=3D"line"> <span class=3D"tag">&lt;<span class=3D"name" sty=
+le=3D"color: rgb(38,139,210);">artifactId</span>&gt;</span>HikariCP<span cl=
+ass=3D"tag">&lt;/<span class=3D"name" style=3D"color: rgb(38,139,210);">art=
+ifactId</span>&gt;</span></span><br><span class=3D"line"><span class=3D"tag=
+">&lt;/<span class=3D"name" style=3D"color: rgb(38,139,210);">dependency</s=
+pan>&gt;</span></span></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>=E7=8E=B0=E5=9C=A8=E5=8F=AF=E4=BB=A5=E8=BF=99=E6=A0=B7=E4=BF=AE=E6=94=B9=
+=EF=BC=9A</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><pre><span class=3D"line"><span class=3D"tag">&l=
+t;<span class=3D"name" style=3D"color: rgb(38,139,210);">dependency</span>&=
+gt;</span></span><br><span class=3D"line"> <span class=3D"tag">&lt;<span cl=
+ass=3D"name" style=3D"color: rgb(38,139,210);">groupId</span>&gt;</span>org=
+.springframework.boot<span class=3D"tag">&lt;/<span class=3D"name" style=3D=
+"color: rgb(38,139,210);">groupId</span>&gt;</span></span><br><span class=
+=3D"line"> <span class=3D"tag">&lt;<span class=3D"name" style=3D"color: rgb=
+(38,139,210);">artifactId</span>&gt;</span>spring-boot-starter-data-jpa<spa=
+n class=3D"tag">&lt;/<span class=3D"name" style=3D"color: rgb(38,139,210);"=
+>artifactId</span>&gt;</span></span><br><span class=3D"line"><span class=3D=
+"tag">&lt;/<span class=3D"name" style=3D"color: rgb(38,139,210);">dependenc=
+y</span>&gt;</span></span></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E5=85=AB=E3=80=81Redis">=E5=8D=81=
+=E5=85=AB=E3=80=81<span style=3D"color: rgb(112,112,112);">Redis</span></h1=
+>
+<p>=E7=8E=B0=E5=9C=A8=E4=BD=BF=E7=94=A8=E7=9A=84=E6=98=AF&nbsp;<a href=3D"h=
+ttps://lettuce.io/" class=3D"external-link" rel=3D"nofollow">Lettuce</a>&nb=
+sp;=E8=80=8C=E4=B8=8D=E6=98=AF&nbsp;<a href=3D"https://github.com/xetorthio=
+/jedis" class=3D"external-link" rel=3D"nofollow">Jedis</a>&nbsp;=E4=BD=9C=
+=E4=B8=BA Redis =E9=A9=B1=E5=8A=A8=E7=A8=8B=E5=BA=8F<code>spring-boot-start=
+er-redis</code>=E3=80=82=E5=A6=82=E6=9E=9C=E6=82=A8=E4=BD=BF=E7=94=A8=E6=9B=
+=B4=E9=AB=98=E7=BA=A7=E5=88=AB=E7=9A=84Spring Data =E6=9E=84=E9=80=A0=EF=BC=
+=8C=E5=88=99=E5=BA=94=E8=AF=A5=E5=8F=91=E7=8E=B0=E5=8F=98=E5=8C=96=E6=98=AF=
+=E9=80=8F=E6=98=8E=E7=9A=84=E3=80=82=E6=88=91=E4=BB=AC=E4=BB=8D=E7=84=B6=E6=
+=94=AF=E6=8C=81 Jedis=EF=BC=8C=E5=A6=82=E6=9E=9C=E6=82=A8=E6=84=BF=E6=84=8F=
+=EF=BC=8C=E9=80=9A=E8=BF=87=E6=8E=92=E9=99=A4&nbsp;<code>io.lettuce=EF=BC=
+=9Alettuce-core</code>=E5=B9=B6=E6=B7=BB=E5=8A=A0&nbsp;<code>redis.clients=
+=EF=BC=9Ajedis</code>=EF=BC=8C=E5=88=99=E5=8F=AF=E4=BB=A5=E8=87=AA=E7=94=B1=
+=E5=88=87=E6=8D=A2=E4=BE=9D=E8=B5=96=E9=A1=B9=E3=80=82</p>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E4=B9=9D=E3=80=81Elasticsearch">=
+=E5=8D=81=E4=B9=9D=E3=80=81<span style=3D"color: rgb(112,112,112);">Elastic=
+search</span></h1>
+<p>Elasticsearch =E5=B7=B2=E7=BB=8F=E5=8D=87=E7=BA=A7=E5=88=B0 6.0+=E3=80=
+=82=E4=B8=8E&nbsp;<a href=3D"https://www.elastic.co/blog/elasticsearch-the-=
+server" class=3D"external-link" rel=3D"nofollow">Elastic =E5=AE=A3=E5=B8=83=
+=E5=B5=8C=E5=85=A5=E5=BC=8F Elasticsearch =E4=B8=8D=E5=86=8D=E5=8F=97=E6=94=
+=AF=E6=8C=81=E4=B8=80=E8=87=B4</a>=EF=BC=8C=E8=87=AA=E5=8A=A8=E9=85=8D=E7=
+=BD=AE<code>NodeClient</code>=E5=B7=B2=E8=A2=AB=E5=88=A0=E9=99=A4=E3=80=82<=
+code>TransportClient</code>=E5=8F=AF=E4=BB=A5=E9=80=9A=E8=BF=87=E4=BD=BF=E7=
+=94=A8<code>spring.data.elasticsearch.cluster-nodes</code>=E6=8F=90=E4=BE=
+=9B=E8=A6=81=E8=BF=9E=E6=8E=A5=E7=9A=84=E4=B8=80=E4=B8=AA=E6=88=96=E5=A4=9A=
+=E4=B8=AA=E8=8A=82=E7=82=B9=E7=9A=84=E5=9C=B0=E5=9D=80=E6=9D=A5=E8=87=AA=E5=
+=8A=A8=E9=85=8D=E7=BD=AE=E3=80=82</p>
+<p><br></p>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=BA=8C=E5=8D=81=E3=80=81SpringBootActuato=
+r">=E4=BA=8C=E5=8D=81=E3=80=81Spring Boot Actuator</h1>
+<p>Spring Boot 2 =E4=B8=BA Actuator =E5=B8=A6=E6=9D=A5=E4=BA=86=E9=87=8D=E8=
+=A6=81=E5=8F=98=E5=8C=96=EF=BC=8C=E6=97=A0=E8=AE=BA=E6=98=AF=E5=86=85=E9=83=
+=A8=E8=BF=98=E6=98=AF=E9=9D=A2=E5=90=91=E7=94=A8=E6=88=B7=EF=BC=8C=E8=AF=B7=
+=E6=9F=A5=E9=98=85<a href=3D"https://docs.spring.io/spring-boot/docs/curren=
+t-SNAPSHOT/reference/htmlsingle/#production-ready" class=3D"external-link" =
+rel=3D"nofollow">=E5=8F=82=E8=80=83=E6=8C=87=E5=8D=97=E4=B8=AD</a>=E7=9A=84=
+<a href=3D"https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/referen=
+ce/htmlsingle/#production-ready" class=3D"external-link" rel=3D"nofollow">=
+=E6=9B=B4=E6=96=B0=E9=83=A8=E5=88=86</a>=E5=92=8C<a href=3D"https://docs.sp=
+ring.io/spring-boot/docs/current-SNAPSHOT/actuator-api/html" class=3D"exter=
+nal-link" rel=3D"nofollow">=E6=96=B0=E7=9A=84Actuator API=E6=96=87=E6=A1=A3=
+</a>=E3=80=82</p>
+<p>=E6=82=A8=E5=BA=94=E8=AF=A5=E6=9C=9F=E6=9C=9B=E7=BC=96=E7=A8=8B=E6=A8=A1=
+=E5=9E=8B=EF=BC=8C=E9=85=8D=E7=BD=AE=E5=AF=86=E9=92=A5=E5=92=8C=E6=9F=90=E4=
+=BA=9B=E7=AB=AF=E7=82=B9=E7=9A=84=E5=93=8D=E5=BA=94=E6=A0=BC=E5=BC=8F=E5=8F=
+=91=E7=94=9F=E5=8F=98=E5=8C=96=E3=80=82Actuator =E7=8E=B0=E5=9C=A8=E5=9C=A8=
+ Spring MVC=EF=BC=8CSpring WebFlux =E5=92=8CJersey =E4=B8=8A=E5=BE=97=E5=88=
+=B0=E6=9C=AC=E5=9C=B0=E6=94=AF=E6=8C=81=E3=80=82</p>
+<p><br></p>
+<p><strong>=E6=9E=84=E5=BB=BA</strong></p>
+<p>Actuator =E7=9A=84=E4=BB=A3=E7=A0=81=E5=88=86=E4=B8=BA=E4=B8=A4=E4=B8=AA=
+=E6=A8=A1=E5=9D=97=EF=BC=9A=E7=8E=B0=E6=9C=89=E7=9A=84<code>spring-boot-act=
+uator</code>=E5=92=8C=E6=96=B0=E7=9A=84<code>spring-boot-actuator-autoconfi=
+gure</code>=E3=80=82=E5=A6=82=E6=9E=9C=E6=82=A8=E4=BD=BF=E7=94=A8=E5=8E=9F=
+=E5=A7=8B=E6=A8=A1=E5=9D=97=EF=BC=88<code>spring-boot-actuator</code>=EF=BC=
+=89=E5=AF=BC=E5=85=A5 actuator=EF=BC=8C=E8=AF=B7=E8=80=83=E8=99=91=E4=BD=BF=
+=E7=94=A8<code>spring-boot-starter-actuator</code>=E5=90=AF=E5=8A=A8=E5=99=
+=A8=E6=9B=BF=E4=BB=A3=E5=AE=83=E3=80=82</p>
+<p><br></p>
+<p>Keys =E7=9A=84=E9=85=8D=E7=BD=AE=E7=BB=93=E6=9E=84</p>
+<p><br></p>
+<p>Endpoints =E5=9F=BA=E7=A1=80=E9=85=8D=E7=BD=AE key =E5=B7=B2=E7=BB=8F=E7=
+=BB=9F=E4=B8=80=EF=BC=9A</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th style=3D"text-align: left;" class=3D"confluenceTh">=E6=97=A7=E7=9A=84=
+=E5=B1=9E=E6=80=A7</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">=E6=96=B0=E7=9A=84=
+=E5=B1=9E=E6=80=A7</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><code>endpoints.&lt;id&gt;.*</code></td>
+<td class=3D"confluenceTd"><code>management.endpoint.&lt;id&gt;.*</code></t=
+d>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>endpoints.cors.*</code></td>
+<td class=3D"confluenceTd"><code>management.endpoints.web.cors.*</code></td=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>endpoints.jmx.*</code></td>
+<td class=3D"confluenceTd"><code>management.endpoints.jmx.*</code></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>management.address</code></td>
+<td class=3D"confluenceTd"><code>management.server.address</code></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>management.context-path</code></td>
+<td class=3D"confluenceTd"><code>management.server.servlet.context-path</co=
+de></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>management.ssl.*</code></td>
+<td class=3D"confluenceTd"><code>management.server.ssl.*</code></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>management.port</code></td>
+<td class=3D"confluenceTd">management.server.port</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>=E5=9F=BA=E6=9C=AC=E8=B7=AF=E5=BE=84</p>
+<p>=E6=89=80=E6=9C=89 endpoints =E9=BB=98=E8=AE=A4=E6=83=85=E5=86=B5=E4=B8=
+=8B=E9=83=BD=E5=B7=B2=E7=A7=BB=E8=87=B3&nbsp;<code>/actuator</code>=E3=80=
+=82</p>
+<p>=E6=88=91=E4=BB=AC=E4=BF=AE=E6=94=B9=E4=BA=86&nbsp;<code>management.serv=
+er.servlet.context-path</code>&nbsp;=E7=9A=84=E5=90=AB=E4=B9=89=EF=BC=9A=E5=
+=AE=83=E7=8E=B0=E5=9C=A8=E6=98=AF&nbsp;<code>server.servlet.context-path</c=
+ode>&nbsp;=E7=9A=84=E7=AB=AF=E7=82=B9=E7=AE=A1=E7=90=86=E7=9A=84=E7=AD=89=
+=E4=BB=B7=E6=9B=BF=E4=BB=A3=EF=BC=88=E5=8F=AA=E6=9C=89=E5=9C=A8=E8=AE=BE=E7=
+=BD=AE=E4=BA=86&nbsp;<code>management.server.port</code>&nbsp;=E6=97=B6=E6=
+=89=8D=E6=9C=89=E6=95=88=EF=BC=89=E3=80=82=E5=8F=A6=E5=A4=96=EF=BC=8C=E6=82=
+=A8=E8=BF=98=E5=8F=AF=E4=BB=A5=E4=BD=BF=E7=94=A8=E6=96=B0=E7=9A=84=E5=8D=95=
+=E7=8B=AC=E5=B1=9E=E6=80=A7&nbsp;<code>management.endpoints.web.base-path</=
+code>&nbsp;=E4=B8=BA=E7=AE=A1=E7=90=86=E7=AB=AF=E7=82=B9=E8=AE=BE=E7=BD=AE=
+=E5=9F=BA=E6=9C=AC=E8=B7=AF=E5=BE=84=E3=80=82</p>
+<p>=E4=BE=8B=E5=A6=82=EF=BC=8C=E5=A6=82=E6=9E=9C=E4=BD=A0=E8=AE=BE=E7=BD=AE=
+<code>management.server.servlet.context-path=3D/management</code>=E5=92=8C<=
+code>management.endpoints.web.base-path=3D/application</code>=EF=BC=8C=E4=
+=BD=A0=E5=B0=B1=E5=8F=AF=E4=BB=A5=E5=9C=A8=E4=B8=8B=E9=9D=A2=E7=9A=84=E8=B7=
+=AF=E5=BE=84=E5=88=B0=E8=BE=BE=E7=BB=88=E7=82=B9=E5=81=A5=E5=BA=B7=EF=BC=9A=
+<code>/management/application/health</code>=E3=80=82</p>
+<p>=E5=A6=82=E6=9E=9C=E4=BD=A0=E6=83=B3=E6=81=A2=E5=A4=8D 1.x =E7=9A=84=E8=
+=A1=8C=E4=B8=BA=EF=BC=88=E5=8D=B3=E5=85=B7=E6=9C=89<code>/health</code>=E4=
+=BB=A3=E6=9B=BF<code>/actuator/health</code>=EF=BC=89=EF=BC=8C=E8=AE=BE=E7=
+=BD=AE=E4=BB=A5=E4=B8=8B=E5=B1=9E=E6=80=A7=EF=BC=9A</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><pre><span class=3D"line">management.endpoints.w=
+eb.base-path=3D/</span></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>=E5=AE=A1=E8=AE=A1=E4=BA=8B=E4=BB=B6 API =E6=9B=B4=E6=94=B9</p>
+<p><code>AuditEventRepository</code>&nbsp;=E7=8E=B0=E5=9C=A8=E6=9C=89=E4=B8=
+=80=E4=B8=AA=E5=8C=85=E5=90=AB=E6=89=80=E6=9C=89=E5=8F=AF=E9=80=89=E5=8F=82=
+=E6=95=B0=E7=9A=84=E5=8D=95=E4=B8=80=E6=96=B9=E6=B3=95=E3=80=82</p>
+<p>Endpoints</p>
+<p>=E8=A6=81=E9=80=9A=E8=BF=87 HTTP =E4=BD=BF=E6=89=A7=E8=A1=8C=E5=99=A8=E7=
+=AB=AF=E7=82=B9=E5=8F=AF=E7=94=A8=EF=BC=8C=E5=AE=83=E9=9C=80=E8=A6=81=E5=90=
+=8C=E6=97=B6<strong>=E5=90=AF=E7=94=A8</strong>=E5=92=8C<strong>=E5=85=AC=
+=E5=BC=80</strong>=E3=80=82=E9=BB=98=E8=AE=A4=EF=BC=9A</p>
+<ul>
+<li><strong>=E6=97=A0=E8=AE=BA=E6=82=A8=E7=9A=84=E5=BA=94=E7=94=A8=E7=A8=8B=
+=E5=BA=8F=E4=B8=AD=E6=98=AF=E5=90=A6=E5=AD=98=E5=9C=A8=E5=92=8C=E9=85=8D=E7=
+=BD=AE Spring Security</strong>=EF=BC=8C=E5=8F=AA=E6=9C=89=E7=AB=AF=E7=82=
+=B9<code>/health</code>=E5=92=8C<code>/info</code>=E7=AB=AF=E7=82=B9=E9=83=
+=BD=E6=98=AF=E6=9A=B4=E9=9C=B2=E7=9A=84=E3=80=82</li>
+<li>=E6=89=80=E6=9C=89=E7=AB=AF=E7=82=B9=EF=BC=8C=E4=BD=86<code>/shutdown</=
+code>=E5=B7=B2=E5=90=AF=E7=94=A8=E3=80=82</li>
+</ul>
+<p>=E6=82=A8=E5=8F=AF=E4=BB=A5=E6=8C=89=E5=A6=82=E4=B8=8B=E6=96=B9=E5=BC=8F=
+=E5=85=AC=E5=BC=80=E6=89=80=E6=9C=89=E7=AB=AF=E7=82=B9=EF=BC=9A</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><pre><span class=3D"line">management.endpoints.w=
+eb.exposure.include=3D*</span></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>=E6=82=A8=E5=8F=AF=E4=BB=A5=E9=80=9A=E8=BF=87=E4=BB=A5=E4=B8=8B=E6=96=B9=
+=E5=BC=8F=E6=98=BE=E5=BC=8F=E5=90=AF=E7=94=A8<code>/shutdown</code>=E7=AB=
+=AF=E7=82=B9=EF=BC=9A</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><pre><span class=3D"line">management.endpoint.sh=
+utdown.enabled=3Dtrue</span></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>=E8=A6=81=E5=85=AC=E5=BC=80=E6=89=80=E6=9C=89=EF=BC=88=E5=B7=B2=E5=90=AF=
+=E7=94=A8=EF=BC=89=E7=BD=91=E7=BB=9C=E7=AB=AF=E7=82=B9=E9=99=A4<code>env</c=
+ode>=E7=AB=AF=E7=82=B9=E4=B9=8B=E5=A4=96=EF=BC=9A</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><pre><span class=3D"line">management.endpoints.w=
+eb.exposure.include=3D*</span><br><span class=3D"line">management.endpoints=
+.web.exposure.exclude=3Denv</span></pre></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>Endpoint changes</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th style=3D"text-align: left;" class=3D"confluenceTh">1.x =E7=AB=AF=E7=82=
+=B9</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">2.0 =E7=AB=AF=E7=82=
+=B9=EF=BC=88=E6=94=B9=E5=8F=98=EF=BC=89</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><code>/actuator</code></td>
+<td class=3D"confluenceTd">=E4=B8=8D=E5=86=8D=E5=8F=AF=E7=94=A8=E3=80=82 =
+=E4=BD=86=E6=98=AF=EF=BC=8C=E5=9C=A8&nbsp;<code>management.endpoints.web.ba=
+se-path</code>&nbsp;=E7=9A=84=E6=A0=B9=E7=9B=AE=E5=BD=95=E4=B8=AD=E6=9C=89=
+=E4=B8=80=E4=B8=AA=E6=98=A0=E5=B0=84=EF=BC=8C=E5=AE=83=E6=8F=90=E4=BE=9B=E4=
+=BA=86=E5=88=B0=E6=89=80=E6=9C=89=E6=9A=B4=E9=9C=B2=E7=AB=AF=E7=82=B9=E7=9A=
+=84=E9=93=BE=E6=8E=A5=E3=80=82</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>/auditevents</code></td>
+<td class=3D"confluenceTd">=E8=AF=A5<code>after</code>=E5=8F=82=E6=95=B0=E4=
+=B8=8D=E5=86=8D=E9=9C=80=E8=A6=81</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>/autoconfig</code></td>
+<td class=3D"confluenceTd">=E9=87=8D=E5=91=BD=E5=90=8D=E4=B8=BA&nbsp;<code>=
+/conditions</code></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>/docs</code></td>
+<td class=3D"confluenceTd">=E4=B8=8D=E5=86=8D=E5=8F=AF=E7=94=A8</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>/health</code></td>
+<td class=3D"confluenceTd">=E7=8E=B0=E5=9C=A8=E6=9C=89=E4=B8=80=E4=B8=AA&nb=
+sp;<code>management.endpoint.health.show-details</code>&nbsp;=E9=80=89=E9=
+=A1=B9<code>never</code>,&nbsp;<code>always</code>,&nbsp;<code>when-authent=
+icated</code>=EF=BC=8C=E8=80=8C=E4=B8=8D=E6=98=AF=E4=BE=9D=E9=9D=A0&nbsp;<c=
+ode>sensitive</code>&nbsp;=E6=A0=87=E5=BF=97=E6=9D=A5=E7=A1=AE=E5=AE=9A&nbs=
+p;<code>health</code>&nbsp;=E7=AB=AF=E7=82=B9=E6=98=AF=E5=90=A6=E5=BF=85=E9=
+=A1=BB=E6=98=BE=E7=A4=BA=E5=85=A8=E9=83=A8=E7=BB=86=E8=8A=82=E3=80=82 =E9=
+=BB=98=E8=AE=A4=E6=83=85=E5=86=B5=E4=B8=8B=EF=BC=8C<code>/actuator/health</=
+code>=E5=85=AC=E5=BC=80=E5=B9=B6=E4=B8=94=E4=B8=8D=E6=98=BE=E7=A4=BA=E7=BB=
+=86=E8=8A=82=E3=80=82</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>/trace</code></td>
+<td class=3D"confluenceTd">=E9=87=8D=E5=91=BD=E5=90=8D=E4=B8=BA&nbsp;<code>=
+/httptrace</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>=E7=AB=AF=E7=82=B9=E5=B1=9E=E6=80=A7=E5=B7=B2=E6=9B=B4=E6=94=B9=E5=A6=82=
+=E4=B8=8B=EF=BC=9A</p>
+<ul>
+<li><code>endpoints.&lt;id&gt;.enabled</code>&nbsp;=E5=B7=B2=E7=BB=8F=E8=BD=
+=AC=E7=A7=BB=E5=88=B0=E4=BA=86&nbsp;<code>management.endpoint.&lt;id&gt;.en=
+abled</code></li>
+<li><code>endpoints.&lt;id&gt;.id</code>&nbsp;=E6=B2=A1=E6=9C=89=E6=9B=BF=
+=E6=8D=A2=EF=BC=88=E7=AB=AF=E7=82=B9=E7=9A=84 ID =E4=B8=8D=E5=86=8D=E5=8F=
+=AF=E9=85=8D=E7=BD=AE=EF=BC=89</li>
+<li><code>endpoints.&lt;id&gt;.sensitive</code>=E6=B2=A1=E6=9C=89=E6=9B=BF=
+=E4=BB=A3=E5=93=81=EF=BC=88=E8=AF=B7=E5=8F=82=E8=A7=81<a href=3D"https://gi=
+thub.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Migration-Guide#a=
+ctuator-security" class=3D"external-link" rel=3D"nofollow">=E6=89=A7=E8=A1=
+=8C=E5=99=A8=E5=AE=89=E5=85=A8</a>=EF=BC=89</li>
+<li><code>endpoints.&lt;id&gt;.path</code>&nbsp;=E5=B7=B2=E7=BB=8F=E8=BD=AC=
+=E7=A7=BB=E5=88=B0=E4=BA=86&nbsp;<code>management.endpoints.web.path-mappin=
+g.&lt;id&gt;</code></li>
+</ul>
+<p><br></p>
+<p>=E7=AB=AF=E7=82=B9=E6=A0=BC=E5=BC=8F</p>
+<p><code>/actuator/mappings</code>&nbsp;=E7=AB=AF=E7=82=B9=E5=A4=A7=E6=94=
+=B9=E5=8F=98</p>
+<p>JSON =E6=A0=BC=E5=BC=8F=E5=B7=B2=E7=BB=8F=E6=9B=B4=E6=94=B9=E4=B8=BA=E7=
+=8E=B0=E5=9C=A8=E6=AD=A3=E7=A1=AE=E5=9C=B0=E5=8C=85=E5=90=AB=E6=9C=89=E5=85=
+=B3=E4=B8=8A=E4=B8=8B=E6=96=87=E5=B1=82=E6=AC=A1=E7=BB=93=E6=9E=84=EF=BC=8C=
+=E5=A4=9A=E4=B8=AA<code>DispatcherServlets=EF=BC=8C</code>=E9=83=A8=E7=BD=
+=B2=E7=9A=84 Servlet =E5=92=8C Servlet =E8=BF=87=E6=BB=A4=E5=99=A8=E7=9A=84=
+=E4=BF=A1=E6=81=AF=E3=80=82=E8=AF=A6=E6=83=85=E8=AF=B7=E5=8F=82=E9=98=85<a =
+href=3D"https://github.com/spring-projects/spring-boot/issues/9979#issuecom=
+ment-357930821" class=3D"external-link" rel=3D"nofollow">=EF=BC=839979</a>=
+=E3=80=82</p>
+<p>Actuator API =E6=96=87=E6=A1=A3=E7=9A=84<a href=3D"https://docs.spring.i=
+o/spring-boot/docs/current-SNAPSHOT/actuator-api/html/#mappings" class=3D"e=
+xternal-link" rel=3D"nofollow">=E7=9B=B8=E5=85=B3=E9=83=A8=E5=88=86</a>=E6=
+=8F=90=E4=BE=9B=E4=BA=86=E4=B8=80=E4=B8=AA=E7=A4=BA=E4=BE=8B=E6=96=87=E6=A1=
+=A3=E3=80=82</p>
+<p><code>/actuator/httptrace</code>&nbsp;=E7=AB=AF=E7=82=B9=E5=A4=A7=E6=94=
+=B9=E5=8F=98</p>
+<p>=E5=93=8D=E5=BA=94=E7=9A=84=E7=BB=93=E6=9E=84=E5=B7=B2=E7=BB=8F=E8=BF=87=
+=E6=94=B9=E8=BF=9B=EF=BC=8C=E4=BB=A5=E5=8F=8D=E6=98=A0=E7=AB=AF=E7=82=B9=E5=
+=85=B3=E6=B3=A8=E8=B7=9F=E8=B8=AA HTTP =E8=AF=B7=E6=B1=82 - =E5=93=8D=E5=BA=
+=94=E4=BA=A4=E6=8D=A2=E7=9A=84=E6=83=85=E5=86=B5=E3=80=82</p>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=BA=8C=E5=8D=81=E4=B8=80=E3=80=81JPA=E4=
+=B8=8BfindOne=E6=94=B9=E5=8F=98">=E4=BA=8C=E5=8D=81=E4=B8=80=E3=80=81JPA =
+=E4=B8=8BfindOne =E6=94=B9=E5=8F=98</h1>
+<p><br></p>
+<p class=3D"js-qa-wenda-title qa-wenda-title">findOne=E6=96=B9=E6=B3=95=E6=
+=98=AFfindOne(Example&lt;S&gt; example) =E8=BF=94=E5=9B=9EOptional&lt;S&gt;=
+</p>
+<p>=E4=BD=BF=E7=94=A8=E6=96=B9=E5=BC=8F=EF=BC=9A</p>
+<p class=3D"js-qa-wenda-title qa-wenda-title">findOne(Example.of(obj))</p>
+<p><br></p>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=BA=8C=E5=8D=81=E4=BA=8C=E3=80=81feign=E5=
+=8F=98=E4=B8=BAopenFeign">=E4=BA=8C=E5=8D=81=E4=BA=8C=E3=80=81feign =E5=8F=
+=98=E4=B8=BAopenFeign</h1>
+<p class=3D"p1">spring-cloud-starter-feign</p>
+<p class=3D"p1">=E5=8F=98=E6=9B=B4=E4=B8=BA</p>
+<p class=3D"p1">spring-cloud-starter-openfeign</p>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=BA=8C=E5=8D=81=E4=B8=89=E3=80=81MongoCli=
+ent=E7=9A=84=E5=8F=98=E5=8C=96">=E4=BA=8C=E5=8D=81=E4=B8=89=E3=80=81MongoCl=
+ient=E7=9A=84=E5=8F=98=E5=8C=96</h1>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">public =
+class MongoAutoConfiguration {
+
+   private final MongoClientOptions options;
+
+   private final MongoClientFactory factory;
+
+   private MongoClient mongo;
+
+   public MongoAutoConfiguration(MongoProperties properties,
+         ObjectProvider&lt;MongoClientOptions&gt; options, Environment envi=
+ronment) {
+      this.options =3D options.getIfAvailable();
+      this.factory =3D new MongoClientFactory(properties, environment);
+   }
+
+   @PreDestroy
+   public void close() {
+      if (this.mongo !=3D null) {
+         this.mongo.close();
+      }
+   }
+
+   @Bean
+   @ConditionalOnMissingBean
+   public MongoClient mongo() {
+      this.mongo =3D this.factory.createMongoClient(this.options);
+      return this.mongo;
+   }
+
+}</pre>=20
+</div>
+</div>
+<p><br></p>
+<h1 id=3D"SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=E7=BA=
+=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=BA=8C=E5=8D=81=E5=9B=9B=E3=80=81RedisCac=
+heManager=E5=8F=98=E5=8C=96">=E4=BA=8C=E5=8D=81=E5=9B=9B=E3=80=81Redis Cach=
+e Manager =E5=8F=98=E5=8C=96</h1>
+<p>=E4=BD=BF=E7=94=A8redis =E5=81=9A=E7=BC=93=E5=AD=98=EF=BC=8C=E5=9C=A81.5=
+.x =E5=92=8C 2.x =E4=B8=8B=E6=9C=89=E4=B8=80=E4=BA=9B=E4=B8=8D=E5=90=8C=E4=
+=B9=8B=E5=A4=84,=E5=9B=A0=E5=BA=95=E5=B1=82=E5=8F=98=E4=B8=BA<span style=3D=
+"color: rgb(85,85,85);">Lettuce&nbsp; =E6=89=80=E4=BB=A5=E6=9C=89=E4=BA=9B=
+=E6=9E=84=E9=80=A0=E6=96=B9=E6=B3=95=E4=B9=9F=E5=8F=98=E4=BA=86</span></p>
+<p><span style=3D"color: rgb(85,85,85);">cloud 1.5.x&nbsp;&nbsp;</span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">@Bean
+public CacheManager cacheManager(RedisTemplate redisTemplate) {
+    RedisCacheManager cacheManager=3D new RedisCacheManager(redisTemplate);
+    cacheManager.setDefaultExpiration(60);
+    Map&lt;String,Long&gt; expiresMap=3Dnew HashMap&lt;&gt;();
+    expiresMap.put("Product",5L);
+    cacheManager.setExpires(expiresMap);
+    return cacheManager;
+}
+
+</pre>=20
+</div>
+</div>
+<p><span style=3D"color: rgb(85,85,85);">cloud 2.x</span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">/**
+ * =E9=85=8D=E7=BD=AECacheManager
+ *
+ * @param redisTemplate
+ * @return
+ */
+@Bean
+@SuppressWarnings("unchecked")
+public CacheManager cacheManager(
+        RedisTemplate&lt;?, ?&gt; redisTemplate) {
+    // RedisCache=E9=9C=80=E8=A6=81=E4=B8=80=E4=B8=AARedisCacheWriter=E6=9D=
+=A5=E5=AE=9E=E7=8E=B0=E8=AF=BB=E5=86=99Redis
+    RedisCacheWriter writer =3D RedisCacheWriter.lockingRedisCacheWriter(re=
+disTemplate.getConnectionFactory());
+    // SerializationPair=E7=94=A8=E4=BA=8EJava=E5=AF=B9=E8=B1=A1=E5=92=8CRe=
+dis=E4=B9=8B=E9=97=B4=E7=9A=84=E5=BA=8F=E5=88=97=E5=8C=96=E5=92=8C=E5=8F=8D=
+=E5=BA=8F=E5=88=97=E5=8C=96
+    // Spring Boot=E9=BB=98=E8=AE=A4=E9=87=87=E7=94=A8JdkSerializationRedis=
+Serializer=E7=9A=84=E4=BA=8C=E8=BF=9B=E5=88=B6=E6=95=B0=E6=8D=AE=E5=BA=8F=
+=E5=88=97=E5=8C=96=E6=96=B9=E5=BC=8F
+    // =E4=BD=BF=E7=94=A8=E8=AF=A5=E6=96=B9=E5=BC=8F=EF=BC=8C=E4=BF=9D=E5=
+=AD=98=E5=9C=A8redis=E4=B8=AD=E7=9A=84=E5=80=BC=E6=98=AF=E4=BA=BA=E7=B1=BB=
+=E6=97=A0=E6=B3=95=E9=98=85=E8=AF=BB=E7=9A=84=E4=B9=B1=E7=A0=81=EF=BC=8C=E5=
+=B9=B6=E4=B8=94=E8=AF=A5Serializer=E8=A6=81=E6=B1=82=E7=9B=AE=E6=A0=87=E7=
+=B1=BB=E5=BF=85=E9=A1=BB=E5=AE=9E=E7=8E=B0Serializable=E6=8E=A5=E5=8F=A3
+    // =E6=9C=AC=E7=A4=BA=E4=BE=8B=E4=B8=AD=EF=BC=8C=E4=BD=BF=E7=94=A8Strin=
+gRedisSerializer=E6=9D=A5=E5=BA=8F=E5=88=97=E5=8C=96=E5=92=8C=E5=8F=8D=E5=
+=BA=8F=E5=88=97=E5=8C=96redis=E7=9A=84key=E5=80=BC
+    RedisSerializationContext.SerializationPair keySerializationPair =3D Re=
+disSerializationContext.SerializationPair.fromSerializer(
+            new StringRedisSerializer());
+    // =E4=BD=BF=E7=94=A8Jackson2JsonRedisSerializer=E6=9D=A5=E5=BA=8F=E5=
+=88=97=E5=8C=96=E5=92=8C=E5=8F=8D=E5=BA=8F=E5=88=97=E5=8C=96redis=E7=9A=84v=
+alue=E5=80=BC
+    Jackson2JsonRedisSerializer jackson2JsonRedisSerializer =3D new Jackson=
+2JsonRedisSerializer(Object.class);
+    ObjectMapper om =3D new ObjectMapper();
+    om.setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.ANY);
+    om.enableDefaultTyping(ObjectMapper.DefaultTyping.NON_FINAL);
+    jackson2JsonRedisSerializer.setObjectMapper(om);
+    RedisSerializationContext.SerializationPair valueSerializationPair =3D =
+RedisSerializationContext.SerializationPair.fromSerializer(
+            jackson2JsonRedisSerializer);
+    // =E6=9E=84=E9=80=A0=E4=B8=80=E4=B8=AARedisCache=E7=9A=84=E9=85=8D=E7=
+=BD=AE=E5=AF=B9=E8=B1=A1=EF=BC=8C=E8=AE=BE=E7=BD=AE=E7=BC=93=E5=AD=98=E8=BF=
+=87=E6=9C=9F=E6=97=B6=E9=97=B4=E5=92=8CKey=E3=80=81Value=E7=9A=84=E5=BA=8F=
+=E5=88=97=E5=8C=96=E6=9C=BA=E5=88=B6
+    // =E8=BF=99=E9=87=8C=E8=AE=BE=E7=BD=AE=E7=BC=93=E5=AD=98=E8=BF=87=E6=
+=9C=9F=E6=97=B6=E9=97=B4=E4=B8=BA1=E5=A4=A9
+    RedisCacheConfiguration config =3D RedisCacheConfiguration.defaultCache=
+Config().entryTtl(Duration.ofDays(1))
+            .serializeKeysWith(keySerializationPair).serializeValuesWith(va=
+lueSerializationPair);
+    return RedisCacheManager.builder(writer).cacheDefaults(config).build();
+}
+
+
+
+</pre>=20
+</div>
+</div>
+<p><span style=3D"color: rgb(85,85,85);"><br></span></p>
+<p><br></p>
+<p>&nbsp;</p>
+</div>=20
+</div>=20
+<div class=3D"cell aside" data-type=3D"aside">=20
+<div class=3D"innerCell">=20
+<p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1552555613746 {padding: 0px;}
+div.rbtoc1552555613746 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1552555613746 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1552555613746">=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8C=85=E7=BB=93=E6=9E=84=E5=8F=91=
+=E9=80=81=E5=8F=98=E6=9B=B4">=E5=8C=85=E7=BB=93=E6=9E=84=E5=8F=91=E9=80=81=
+=E5=8F=98=E6=9B=B4</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=B8=80=E3=80=81=E6=B7=BB=E5=8A=A0=
+=E5=B8=AE=E5=8A=A9=E8=BD=AC=E5=8C=96=E5=B7=A5=E5=85=B7=E5=8C=85">=E4=B8=80=
+=E3=80=81=E6=B7=BB=E5=8A=A0=E5=B8=AE=E5=8A=A9=E8=BD=AC=E5=8C=96=E5=B7=A5=E5=
+=85=B7=E5=8C=85</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=BA=8C=E3=80=81=E5=BC=80=E5=90=AFin=
+fohealthshutdown=E7=AB=AF=E7=82=B9=E8=AE=BF=E9=97=AE">=E4=BA=8C=E3=80=81=E5=
+=BC=80=E5=90=AFinfo health shutdown =E7=AB=AF=E7=82=B9=E8=AE=BF=E9=97=AE</a=
+></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=B8=89=E3=80=81Redis=E7=9A=84=E6=94=
+=B9=E5=8F=98">=E4=B8=89=E3=80=81Redis=E7=9A=84=E6=94=B9=E5=8F=98</a></li>=
+=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=9B=9B=E3=80=81Kafka">=E5=9B=9B=E3=
+=80=81Kafka</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=BA=94=E3=80=81=E9=9D=99=E6=80=81=
+=E8=B5=84=E6=BA=90=E8=A2=AB=E6=8B=A6=E6=88=AA">=E4=BA=94=E3=80=81=E9=9D=99=
+=E6=80=81=E8=B5=84=E6=BA=90=E8=A2=AB=E6=8B=A6=E6=88=AA</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=85=AD=E3=80=81=E5=85=A8=E5=B1=80=
+=E5=BC=82=E5=B8=B8=E7=89=B9=E6=AE=8A=E5=A4=84=E7=90=86">=E5=85=AD=E3=80=81=
+=E5=85=A8=E5=B1=80=E5=BC=82=E5=B8=B8=E7=89=B9=E6=AE=8A=E5=A4=84=E7=90=86</a=
+></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=B8=83=E3=80=81=E6=8B=A6=E6=88=AA=
+=E5=99=A8=E8=BF=87=E6=97=B6">=E4=B8=83=E3=80=81=E6=8B=A6=E6=88=AA=E5=99=A8=
+=E8=BF=87=E6=97=B6</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=85=AB=E3=80=81SleuthZipkin=E6=8A=
+=BD=E6=A0=B7=E6=8A=93=E5=8F=96">=E5=85=AB=E3=80=81Sleuth Zipkin=E6=8A=BD=E6=
+=A0=B7=E6=8A=93=E5=8F=96</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=B9=9D=E3=80=81=E6=95=B0=E6=8D=AE=
+=E6=8A=93=E5=8F=96">=E4=B9=9D=E3=80=81=E6=95=B0=E6=8D=AE=E6=8A=93=E5=8F=96<=
+/a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E3=80=81=E9=85=8D=E7=BD=AE=
+=E6=95=B0=E6=8D=AE=E6=BA=90">=E5=8D=81=E3=80=81=E9=85=8D=E7=BD=AE=E6=95=B0=
+=E6=8D=AE=E6=BA=90</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E4=B8=80=E3=80=81=E7=AB=AF=
+=E7=82=B9=E7=9B=91=E6=8E=A7">=E5=8D=81=E4=B8=80=E3=80=81=E7=AB=AF=E7=82=B9=
+=E7=9B=91=E6=8E=A7</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E4=BA=8C=E3=80=81=E9=BB=98=
+=E8=AE=A4=E5=8A=A8=E6=80=81=E4=BB=A3=E7=90=86=E7=AD=96=E7=95=A5">=E5=8D=81=
+=E4=BA=8C=E3=80=81=E9=BB=98=E8=AE=A4=E5=8A=A8=E6=80=81=E4=BB=A3=E7=90=86=E7=
+=AD=96=E7=95=A5</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E4=B8=89=E3=80=81Web=E7=8E=
+=AF=E5=A2=83">=E5=8D=81=E4=B8=89=E3=80=81Web =E7=8E=AF=E5=A2=83</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E5=9B=9B=E3=80=81SpringBoot=
+=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=E4=BA=8B=E4=BB=B6=E6=9B=B4=E6=94=B9">=
+=E5=8D=81=E5=9B=9B=E3=80=81Spring Boot =E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=
+=E4=BA=8B=E4=BB=B6=E6=9B=B4=E6=94=B9</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E4=BA=94=E3=80=81=E5=BC=80=
+=E5=8F=91Web=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F">=E5=8D=81=E4=BA=94=E3=80=
+=81=E5=BC=80=E5=8F=91 Web =E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E5=85=AD=E3=80=81Servlet=E8=
+=BF=87=E6=BB=A4=E5=99=A8">=E5=8D=81=E5=85=AD=E3=80=81Servlet =E8=BF=87=E6=
+=BB=A4=E5=99=A8</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E4=B8=83=E3=80=81=E4=BD=BF=
+=E7=94=A8SQL=E6=95=B0=E6=8D=AE=E5=BA=93">=E5=8D=81=E4=B8=83=E3=80=81=E4=BD=
+=BF=E7=94=A8 SQL =E6=95=B0=E6=8D=AE=E5=BA=93</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E5=85=AB=E3=80=81Redis">=E5=
+=8D=81=E5=85=AB=E3=80=81Redis</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E5=8D=81=E4=B9=9D=E3=80=81Elasticsear=
+ch">=E5=8D=81=E4=B9=9D=E3=80=81Elasticsearch</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=BA=8C=E5=8D=81=E3=80=81SpringBootA=
+ctuator">=E4=BA=8C=E5=8D=81=E3=80=81Spring Boot Actuator</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=BA=8C=E5=8D=81=E4=B8=80=E3=80=81JP=
+A=E4=B8=8BfindOne=E6=94=B9=E5=8F=98">=E4=BA=8C=E5=8D=81=E4=B8=80=E3=80=81JP=
+A =E4=B8=8BfindOne =E6=94=B9=E5=8F=98</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=BA=8C=E5=8D=81=E4=BA=8C=E3=80=81fe=
+ign=E5=8F=98=E4=B8=BAopenFeign">=E4=BA=8C=E5=8D=81=E4=BA=8C=E3=80=81feign =
+=E5=8F=98=E4=B8=BAopenFeign</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=BA=8C=E5=8D=81=E4=B8=89=E3=80=81Mo=
+ngoClient=E7=9A=84=E5=8F=98=E5=8C=96">=E4=BA=8C=E5=8D=81=E4=B8=89=E3=80=81M=
+ongoClient=E7=9A=84=E5=8F=98=E5=8C=96</a></li>=20
+<li><a href=3D"#SpringCloudF&amp;SpringBoot2.0=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E8=AF=B4=E6=98=8E=E4=B9=A6-=E4=BA=8C=E5=8D=81=E5=9B=9B=E3=80=81Re=
+disCacheManager=E5=8F=98=E5=8C=96">=E4=BA=8C=E5=8D=81=E5=9B=9B=E3=80=81Redi=
+s Cache Manager =E5=8F=98=E5=8C=96</a></li>=20
+</ul>=20
+</div>
+<p></p>
+</div>=20
+</div>=20
+</div>=20
+</div>
+    </div>
+</body>
+</html>
+------=_Part_77_1901483573.1552555613765
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/2d479d97f217235ffba013bbbda5c6a6
+
+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
+SPM9oAtbn5KWn1lnTCdYBcIfwtmql7R6qj65EVD/z42bcomACIiACIiACJRMApHcFKBkoiwdtcIc
+g5f0ocwwayxlpnS0q65CBERABERABERABEorgV1uhQbnbhznsfnHNIFdZxDsy3mXQzJn9tLYAXDK
+xZkZwRYckyfM9hDM9nDIbdasmf2tP6WDgPp/6WhHXYUIiIAIiIAIiMCfBCK5KcCf1c/uCDt5dvBy
+DvP4LfBxgg/GrqTQ4GeEszBc8CXBf4QdhTA3wzk5uCGC46TvaBJQ/49mu6nWIiACIiACIiACqQns
+cis0rED431ng8DCYZwvUVLuTubSl6RvTMpQ6FJvatWsXiVN8aeIXtWtR/49ai6m+IiACIiACIiAC
+6QjscgpNOiCKFwEREAEREAEREAEREAERiA4BbQoQnbZSTUVABERABERABERABERABAIEpNAEgOin
+CIiACIiACIiACIiACIhAdAhIoYlOW6mmIiACIiACIiACIiACIiACAQJSaAJA9FMEREAEREAEREAE
+REAERCA6BKTQRKetVFMREAEREAEREAEREAEREIEAASk0ASD6KQIiIAIiIAIiIAIiIAIiEB0CUmii
+01aqqQiIgAiIgAiIgAiIgAiIQICAFJoAEP0UAREQAREQAREQAREQARGIDgEpNNFpK9VUBERABERA
+BERABERABEQgQEAKTQCIfoqACIiACIiACIiACIiACESHgBSa6LSVaioCIiACIiACIiACIiACIhAg
+IIUmAEQ/RUAEREAEREAEREAEREAEokNACk102ko1FQEREAEREAEREAEREAERCBCQQhMAop8iIAIi
+IAIiIAIiIAIiIALRISCFJjptpZqKgAiIgAiIgAiIgAiIgAgECEihCQDRTxEQAREQAREQAREQAREQ
+gegQkEITnbZSTUVABERABERABERABERABAIEpNAEgOinCIiACIiACIiACIiACIhAdAhIoYlOW6mm
+IiACIiACIiACIiACIiACAQJSaAJA9FMEREAEREAEREAEREAERCA6BKTQRKetVFMREAEREAEREAER
+EAEREIEAASk0ASD6KQIiIAIiIAIiIAIiIAIiEB0CUmii01aqqQiIgAiIgAiIgAiIgAiIQICAFJoA
+EP0UAREQAREQAREQAREQARGIDgEpNNFpK9VUBERABERABERABERABEQgQEAKTQCIfoqACIiACIiA
+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
+AlJoItt0qrgIiIAIiIAIiIAIiIAIiIAUGvUBERABERABERABERABERCByBKQQhPZplPFRUAEREAE
+REAEREAEREAEpNCoD4iACIiACIiACIiACIiACESWgBSayDadKi4CIiACIiACIiACIiACIiCFRn1A
+BERABERABERABERABEQgsgSk0ES26VRxERABERABERABERABERABKTTqAyIgAiIgAiIgAiIgAiIg
+ApElIIUmsk2niouACIiACIiACIiACIiACEihUR8QAREQAREQAREQAREQARGILAEpNJFtOlVcBERA
+BERABERABERABERACo36gAiIgAiIgAiIgAiIgAiIQGQJSKGJbNOp4iIgAiIgAiIgAiIgAiIgAlJo
+1AdEQAREQAREQAREQAREQAQiS0AKTWSbThUXAREQAREQAREQAREQARGQQqM+IAIiIAIiIAIiIAIi
+IAIiEFkCUmgi23SquAiIgAiIgAiIgAiIgAiIgBQa9QEREAEREAEREAEREAEREIHIEpBCE9mmU8VF
+QAREQAREQAREQAREQASk0KgPiIAIiIAIiIAIiIAIiIAIRJaAFJrINp0qLgIiIAIiIAIiIAIiIAIi
+IIVGfUAEREAEREAEREAEREAERCCyBKTQRLbpVHEREAEREAEREAEREAEREAEpNOoDIiACIiACIiAC
+IiACIiACkSUghSayTaeKi4AIiIAIiIAIiIAIiIAISKFRHxABERABERABERABERABEYgsASk0kW06
+VVwEREAEREAEREAEREAEREAKTQnoA9u3bzdXX321OeOMM8wXX3xRAmq0a1dh69atZsuWLYbvTETt
+lwml/Kehjfwf2iGKEvX+k+/6Z3r/+due46i2fxT7rOosAiIgAiWNQLmSVqFdsT7fffedmThxor30
+GTNmmGbNmu2KGErENV955ZVm0qRJsbrcc8895pZbbon9TnSg9ktEpXDDzj77bPPZZ58VOMlee+1l
+wypWrFggvKT/iHr/yWf9M73/SlP759I/f9m42nz0zRSz7bfEky777X2AOalhO1Oh/B65FK88IiAC
+IhA5AlJoSkCT7bHHn/90KlSoUAJqtOtWAWXyxx9/ND///LNZtWqVWbduXVoYar+0iPKe4Oijjzbb
+tm2LzcovXrzYbN682a6qRU2hiXr/yWf9M73/SlP753JzjJn2rBk9dVjKrA9eONCcfsRfU6ZRpAiI
+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
+dKq4CIiACIiACIiACIiACIiAFBr1AREQAREQAREQAREQAREQgcgSkEIT2aZTxUVABERABERABERA
+BERABKTQqA+IgAiIgAiIgAiIgAiIgAhEloAUmsg2nSouAiIgAiIgAiIgAiIgAiIghUZ9QAREQARE
+QAREQAREQAREILIEpNBEtulUcREQAREQAREQAREQAREQASk06gMiIAIiIAIiIAIiIAIiIAKRJSCF
+JrJNp4qLgAiIgAiIgAiIgAiIgAhIoVEfEAEREAEREAEREAEREAERiCwBKTSRbTpVXAREQAREQARE
+QAREQAREQAqN+oAIiIAIiIAIiIAIiIAIiEBkCUihiWzTqeIiIAIiIAIiIAIiIAIiIAJSaNQHREAE
+REAEREAEREAEREAEIktACk1km04VFwEREAEREAEREAEREAERkEKjPiACIiACIiACIiACIiACIhBZ
+AlJoItt0qrgIiIAIiIAIiIAIiIAIiIAUGvUBERABERABERABERABERCByBKQQhPZplPFRUAEREAE
+REAEREAEREAEpNCoD4iACIiACIiACIiACIiACESWgBSayDadKi4CIiACIiACIiACIiACIiCFpgT0
+ge3bt5urr77anHHGGeaLL74oATXatauwdetWs2XLFsN3JrKrt9+ufv2Z9BGlEQEREAEREAERKDwC
+5QqvaJWcKYHvvvvOTJw40SafMWOGadasWaZZlS7PBK688kozadKkWKn33HOPueWWW2K/Ex3s6u23
+q19/oj6xK4X9sGapmfntVPPJ4mnmxIZtzZlHnpfx5f+ycbWZMPcN8/HiaTbPcXVbmTOOPNfsv3fl
+jMqIev6MLlKJREAEREAE0hKQQpMWUeEn2GOPPWInqVChQuxYB0VPAGXyxx9/ND///LNZtWqVWbdu
+XdpKRLX9Pv74Y/Pcc8+Ze++911SrVi3tdSZLENXrT3Y9RRWeL/5FVV//eXZ6O81TkwaYyfPeNj/+
+uiwWVaHcHhkrND9vWGVuHH6pWfbLklj+6QvfN69/8oJ56pox5oCKVWLhiQ6inj/RNSlMBERABEQg
+NwIyOcuNW15z1axZ0zz55JPmkUceMeecc05ey1Zh2RG46667zH/+8x/zP//zPxlnjGr7vfbaa4bP
+tGl/zI5nfMGBhFG9/sBlFPnPfPEv8oobYzZuXW9emTnKbNiyzrRqcIo5od5JWVVj584dpvtzXawy
+c1LDdmb0zW+ZUTeNMxx///Ni0/25Kw1KUzKJev5k16VwERABERCB3AhohSY3bnnPde655+a9TBVY
+dASi2H47duywgDL1FUpFM4rXn+p6iiIun/xT1Zf2/eqrr+yqY6NGjUyNGjVSJc8obp899zMTe31q
+ypYtZ8rsVsYqNzMWfZBRXhJNW/ieWbxqoaldpY558MKBZs/d97J5Ob5q6Dlm0cqvzYyFH5i/NGiT
+sMyo5094UQoUAREQARHImUDkV2jWr19vPv/8czurPnPmTLNy5UoLA1MhbPsTyW+//WZ+//33uKid
+O5PPCAYTU4b7BOP4vXDhQjN9+vSUjuUMaFwZfLsBTqLy/GEunz89Tuz438AAJtmKvyyX19XN/c7n
+tyub70SSCT+XD9OwqVOn2j7w/fffm2za0ZWR6PpdXLJv1w7uWnIpg/76ySefmAkTJpg5c+bE2m7Z
+smXml19+SXbqEhGey/U7VlwAmwl89tln5t133zUbNmyIXdMPP/xgeXz55ZfG87xYeLKDsO3/66+/
+mlmzZhlMwNauXZvsNLFw/zXEAv97wDW5+EzqHsxfGL8xKxw7dqxdiXv22WfN119/nZfTlC+3u1Vm
+cins9U9etNn+2vzimDJDAIoNYcjrn4yx34n+RD1/omtSmAiIgAiIQO4EIrtCg49D3759zeuvvx6n
+nOAPwGCQge2CBQuM80thpvLEE0+0PhIg69q1q+ndu7c192JQxQCqXLlypnHjxua0006z8fwOSocO
+Hezg04VfcMEF5vHHH7eDsgcffNBMnjzZ+l8QX758eeuncPLJJ7vk9psBVOfOne1uWi6CtO+99545
+9NBDXVDc97Bhw+x1M3Dac8897UAeczUGLW5ATTl33nmndWbfbbfd4spwAfPnzzePPfaY3Vntp59+
+MrVr1zatW7e2eQcMGGBGjx5tk9avX98OOsuUyY/+mw9+VOzll182/fv3j7F217XPPvuYHj16GBz8
+y5Yt64Ljvt966y0zZswYAwf6C9d5zDHH2LxxiQMBubafKwYlvF+/frb9XBjftFetWrUMitnxxx9v
+Xn31VX906GMG7NwTKBDLly+35dHv/RshEEgfOvroow0sE0ku19++fXvLmvJOOukkq7yhxCF77723
+efvtt83w4cNtX3bnPOuss8zQoUMTtmOY9ufZMGrUKDNo0KC4/nPwwQeb2267zVx22WXG3+fJ06ZN
+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
+IiACIiACIiACIiAC6QhIoUlHSPEiIAIiIAIiIAIiIAIiIAIlloAUmhLbNKqYCIiACIiACIiACIiA
+CIhAOgJSaNIRUrwIiIAIiIAIiIAIiIAIiECJJSCFpsQ2jSomAiIgAiIgAiIgAiIgAiKQjoAUmnSE
+FC8CIiACIiACIiACIiACIlBiCUihKbFNo4qJgAiIgAiIgAiIgAiIgAikIyCFJh0hxYuACIiACIiA
+CIiACIiACJRYAlJo/v/2zgTKiuL6wyWgCIIraKICkc0NNIg7LiiIKBoxECJuMW5BNLgblD8uOWpI
+DrKIIAlHgoAHjZooLhECKoJsAoGIKBmcEMAFEES2QZbp//nK1LNfv377G95r5nfPmXnd1VXV1V9V
+d9eture6ZKtGBRMBERABERABERABERABEUhHQApNOkI6LgIiIAIiIAIiIAIiIAIiULIEpNCUbNWo
+YCIgAiIgAiIgAiIgAiIgAukISKFJR0jHRUAEREAEREAEREAEREAESpaAFJqSrRoVTAREQAREQARE
+QAREQAREIB0BKTTpCOm4CIiACIiACIiACIiACIhAyRKQQlOyVaOCiYAIiIAIiIAIiIAIiIAIpCMg
+hSYdIR0XAREQAREQAREQAREQAREoWQJSaEq2alQwERABERABERABERABERCBdASk0KQjpOMiIAIi
+IAIiIAIiIAIiIAIlS0AKTclWjQomAiIgAiIgAiIgAiIgAiKQjoAUmnSEdFwEREAEREAEREAEREAE
+RKBkCUihKdmqUcFEQAREQAREQAREQAREQATSEZBCk46QjouACIiACIiACIiACIiACJQsASk0JVA1
+O3fuNL/85S9N586dzYcfflgCJareRdi2bZupqKgw/GYiqr9MKBU+DnXk/6MeJNWPgO6/6lfnumIR
+EAERCBKoFQzQ/u4n8J///MdMnjzZnnj27NmmdevWu78QOqMl8Itf/MJMmTIlRuP+++83t912W2w/
+bEP1F0alasMuueQS889//jPuJHXr1rVh9erViwvXzp5NoLrff5+tX2HmfDrDzCufac4+poO56MTL
+M67wdZvXmkmLXjUflM+0aU5t1s50PrGrOWi/QzLKo9jpMyqkIomACFQLAlJoSqCa991331gpateu
+HdvWxu4ngDL5+eefm6+++sqsWbPGfPPNN2kLofpLi6jgEdq0aWO+/fZb42ZlysvLzdatW+2smhSa
+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
+gg==
+------=_Part_77_1901483573.1552555613765--
